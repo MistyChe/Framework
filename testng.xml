@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FrameworkClean">
+
+  <test name="CalcTestSuit">
+    <classes>
+      <class name="oa.selenium.FrameworkClean.tests.SmokeTest"/>
+      <class name="oa.selenium.FrameworkClean.tests.FanctionalTest"/>
+      
+    </classes>
+  </test>
+</suite>

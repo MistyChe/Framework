@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Framework]">
+  <parameter name="appURL" value="http://darom.kharkov.ua/calculator.php"/>
+  <parameter name="browserType" value="firefox"/>
+  <test name="CalcTestSuit(failed)">
+    <classes>
+      <class name="oa.selenium.FrameworkClean.tests.SmokeTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="SmokeTest2"/>
+        </methods>
+      </class> <!-- oa.selenium.FrameworkClean.tests.SmokeTest -->
+      <class name="oa.selenium.FrameworkClean.tests.FanctionalTest">
+        <methods>
+          <include name="SmokeTest"/>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- oa.selenium.FrameworkClean.tests.FanctionalTest -->
+    </classes>
+  </test> <!-- CalcTestSuit(failed) -->
+</suite> <!-- Failed suite [Framework] -->

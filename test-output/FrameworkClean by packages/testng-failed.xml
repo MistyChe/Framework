@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FrameworkClean by packages]">
+  <test name="oa.selenium.FrameworkClean.tests(failed)">
+    <classes>
+      <class name="oa.selenium.FrameworkClean.tests.FanctionalTest">
+        <methods>
+          <include name="SmokeTest"/>
+          <include name="FuncTestCSVTestPlass"/>
+          <include name="FuncTestCSVTestMult"/>
+        </methods>
+      </class> <!-- oa.selenium.FrameworkClean.tests.FanctionalTest -->
+      <class name="oa.selenium.FrameworkClean.tests.SmokeTest">
+        <methods>
+          <include name="clickCalculateButton"/>
+          <include name="SmokeTest1"/>
+          <include name="SmokeTest2"/>
+        </methods>
+      </class> <!-- oa.selenium.FrameworkClean.tests.SmokeTest -->
+    </classes>
+  </test> <!-- oa.selenium.FrameworkClean.tests(failed) -->
+</suite> <!-- Failed suite [FrameworkClean by packages] -->

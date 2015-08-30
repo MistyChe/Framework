@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Framework by packages]">
+  <test name="oa.selenium.Framework.tests(failed)">
+    <classes>
+      <class name="oa.selenium.Framework.tests.SmokeTest">
+        <methods>
+          <include name="verifyCreateAnAccounPage"/>
+        </methods>
+      </class> <!-- oa.selenium.Framework.tests.SmokeTest -->
+      <class name="oa.selenium.Framework.tests.Fanctionaltest">
+        <methods>
+          <include name="verifyCreateAnAccounPage"/>
+        </methods>
+      </class> <!-- oa.selenium.Framework.tests.Fanctionaltest -->
+      <class name="oa.selenium.Framework.tests.BaseTestCase">
+        <methods>
+          <include name="verifyHomePage"/>
+        </methods>
+      </class> <!-- oa.selenium.Framework.tests.BaseTestCase -->
+    </classes>
+  </test> <!-- oa.selenium.Framework.tests(failed) -->
+</suite> <!-- Failed suite [Framework by packages] -->
