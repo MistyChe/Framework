@@ -15,24 +15,23 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.openqa.selenium.logging.LoggingPreferences;
 import org.openqa.selenium.remote.CapabilityType;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+//import org.slf4j.Logger;
+//import org.slf4j.LoggerFactory;
 
 public class TestBase {
 	WebDriver driver;
 	public static LoggingPreferences logs;
-	private static Logger log = LoggerFactory.getLogger(TestBase.class);
+	//private static Logger log = LoggerFactory.getLogger(TestBase.class);
 	
-	public WebDriver getDriver(BrowserType browserType, String url) {
-		driver = getWebDriver(browserType);
-		driver.get(url);
+	public WebDriver getDriver(){
 		return driver;
 	}
+	
 	public void setDriver(WebDriver driver) {
 		this.driver = driver;
 	}
 	
-	public WebDriver getWebDriver(BrowserType browserType) {
+	public WebDriver createDriver(BrowserType browserType, String url) {
 		switch (browserType)
 		{
 		case FIREFOX:
@@ -42,6 +41,7 @@ public class TestBase {
 			System.setProperty("webdriver.firefox.logfile", "firefox.log");
 			DesiredCapabilities capsFirefox = DesiredCapabilities.firefox();
 			capsFirefox.setCapability(CapabilityType.LOGGING_PREFS, logs);
+			driver.get(url);
 			return driver;
 		case CHROME:
 			System.setProperty("webdriver.chrome.logfile", "chromedriver.log");
@@ -53,9 +53,8 @@ public class TestBase {
 			driver = new ChromeDriver(capsChrome);
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			driver.manage().window().maximize();
+			driver.get(url);
 			return driver;
-			
-			
 		default:
 			driver = new FirefoxDriver();
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -63,12 +62,15 @@ public class TestBase {
 			System.setProperty("webdriver.firefox.logfile", "firefox.log");
 			DesiredCapabilities capsFirefox2 = DesiredCapabilities.firefox();
 			capsFirefox2.setCapability(CapabilityType.LOGGING_PREFS, logs);
+			driver.get(url);
 			return driver;
 		}
 	}
+	
 	public enum BrowserType {
 		FIREFOX, CHROME
-		}
+	}
+	
 	@AfterMethod
 	public void logsAccess(){
 		Logs logs = driver.manage().logs();
@@ -78,13 +80,9 @@ public class TestBase {
 		}
 	}
 	
-	
 	@AfterClass
 	public void tearDown() {
-		
 		driver.close();
 		driver.quit();
 	}
-	
-	
 }

@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+
 public class CalcPage extends AbstractPage{
 	public CalcPage(WebDriver driver) {
 		super(driver);
@@ -15,51 +16,51 @@ public class CalcPage extends AbstractPage{
 	}
 	
 	@FindBy(css = "input[name='a']")
-    WebElement inputNamberA;
-    @FindBy(css = "input[name='b']")
-    WebElement inputNamberB;
-    @FindBy(css = "input[name='sub']")
+	WebElement inputNamberA;
+	@FindBy(css = "input[name='b']")
+	WebElement inputNamberB;
+	@FindBy(css = "input[name='sub']")
 	public
-    WebElement inputCalculate;
-    @FindBy(css = "div[name='result']")
+	WebElement inputCalculate;
+	@FindBy(css = "div[name='result']")
 	public
 	WebElement result;
-    @FindBy(css = "input[value='mult']")
-    WebElement mult;
-    @FindBy(css = "input[value='plus']")
-    WebElement plus;
-    @FindBy(css = "input[value='division']")
-    WebElement division;
-    @FindBy(css = "input[value='minus']")
-    WebElement minus;
-    
-    public CalcPage smokeCalcClick(){
-    	inputCalculate.click();
-    	return this;
-    	
-    }
-    public WebElement returnAction(String actionSelect){ // выбор варианта действия
-    WebElement action;
-    switch (actionSelect)
-    {
-        case "+":
-        	action = plus;
-        	break;
-        case "-":
-        	action = minus;
-        	break;
-        case "*":
-        	action = mult;
-        	break;
-        case "/":
-        	action = division;
-        	break;
-        default: action = plus;
-    }
-	return action;
-    }
+	@FindBy(css = "input[value='mult']")
+	WebElement mult;
+	@FindBy(css = "input[value='plus']")
+	WebElement plus;
+	@FindBy(css = "input[value='division']")
+	WebElement division;
+	@FindBy(css = "input[value='minus']")
+	WebElement minus;
+	
+	public CalcPage smokeCalcClick(){
+		inputCalculate.click();
+		return this;
+	}
+	
+	public WebElement returnAction(String actionSelect){ // выбор варианта действия
+	WebElement action;
+	switch (actionSelect){
+		case "+":
+			action = plus;
+			break;
+		case "-":
+			action = minus;
+			break;
+		case "*":
+			action = mult;
+			break;
+		case "/":
+			action = division;
+			break;
+		default: action = plus;
+		}
+		return action;
+	}
+	
 	public WebElement fillInputs(String NumberA, String NumberB, String action){ //fill information into NumberA, NumberB
-	    inputNamberA.click();
+		inputNamberA.click();
 		inputNamberA.clear();
 		inputNamberA.sendKeys(NumberA);
 		inputNamberB.click();
@@ -70,13 +71,13 @@ public class CalcPage extends AbstractPage{
 		try {
 			Thread.sleep(100);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-	    return result;
-	    }
-	public ArrayList<String[]> returnArrayList() {
 		
+		return result;
+	}
+	
+	public ArrayList<String[]> returnArrayList() {
 		BufferedReader buffer = null;
 		ArrayList<String[]> resultArray = new ArrayList<String[]>();
 		String[] lines;
@@ -97,9 +98,8 @@ public class CalcPage extends AbstractPage{
 				myException.printStackTrace();
 			}
 		}
+		
 		return resultArray;
-	}	
-
-
+	}
 }
 
