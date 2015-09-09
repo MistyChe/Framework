@@ -2,7 +2,6 @@ package oa.selenium.FrameworkClean.base;
 
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -15,20 +14,16 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.openqa.selenium.logging.LoggingPreferences;
 import org.openqa.selenium.remote.CapabilityType;
-//import org.slf4j.Logger;
-//import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class TestBase {
 	WebDriver driver;
 	public static LoggingPreferences logs;
-	//private static Logger log = LoggerFactory.getLogger(TestBase.class);
+	private static Logger log = LoggerFactory.getLogger(TestBase.class);
 	
 	public WebDriver getDriver(){
 		return driver;
-	}
-	
-	public void setDriver(WebDriver driver) {
-		this.driver = driver;
 	}
 	
 	public WebDriver createDriver(BrowserType browserType, String url) {

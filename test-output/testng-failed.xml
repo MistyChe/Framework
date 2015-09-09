@@ -3,14 +3,6 @@
 <suite name="Failed suite [FrameworkClean]">
   <test name="CalcTestSuit(failed)">
     <classes>
-      <class name="oa.selenium.FrameworkClean.tests.SmokeTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="SmokeTest3"/>
-          <include name="SmokeTest1"/>
-          <include name="SmokeTest2"/>
-        </methods>
-      </class> <!-- oa.selenium.FrameworkClean.tests.SmokeTest -->
       <class name="oa.selenium.FrameworkClean.tests.FanctionalTest">
         <methods>
           <include name="multTest"/>
@@ -19,6 +11,14 @@
           <include name="minusTest"/>
         </methods>
       </class> <!-- oa.selenium.FrameworkClean.tests.FanctionalTest -->
+      <class name="oa.selenium.FrameworkClean.tests.SmokeTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="SmokeTest3"/>
+          <include name="SmokeTest1"/>
+          <include name="SmokeTest2"/>
+        </methods>
+      </class> <!-- oa.selenium.FrameworkClean.tests.SmokeTest -->
     </classes>
   </test> <!-- CalcTestSuit(failed) -->
 </suite> <!-- Failed suite [FrameworkClean] -->

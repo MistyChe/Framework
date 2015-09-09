@@ -2,82 +2,82 @@
 <testng-results skipped="0" failed="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="FrameworkClean" duration-ms="16427" started-at="2015-09-06T17:07:45Z" finished-at="2015-09-06T17:08:01Z">
+  <suite name="FrameworkClean" duration-ms="28963" started-at="2015-09-09T11:33:14Z" finished-at="2015-09-09T11:33:43Z">
     <groups>
     </groups>
-    <test name="CalcTestSuit" duration-ms="16427" started-at="2015-09-06T17:07:45Z" finished-at="2015-09-06T17:08:01Z">
+    <test name="CalcTestSuit" duration-ms="28963" started-at="2015-09-09T11:33:14Z" finished-at="2015-09-09T11:33:43Z">
       <class name="oa.selenium.FrameworkClean.tests.SmokeTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:oa.selenium.FrameworkClean.tests.SmokeTest@1c55a79]" name="setUp" is-config="true" duration-ms="3399" started-at="2015-09-06T20:07:45Z" finished-at="2015-09-06T20:07:48Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:oa.selenium.FrameworkClean.tests.SmokeTest@120d014]" name="setUp" is-config="true" duration-ms="15326" started-at="2015-09-09T14:33:14Z" finished-at="2015-09-09T14:33:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="SmokeTest1()[pri:0, instance:oa.selenium.FrameworkClean.tests.SmokeTest@1c55a79]" name="SmokeTest1" duration-ms="313" started-at="2015-09-06T20:07:48Z" finished-at="2015-09-06T20:07:49Z">
+        <test-method status="PASS" signature="SmokeTest1()[pri:0, instance:oa.selenium.FrameworkClean.tests.SmokeTest@120d014]" name="SmokeTest1" duration-ms="391" started-at="2015-09-09T14:33:29Z" finished-at="2015-09-09T14:33:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SmokeTest1 -->
-        <test-method status="PASS" signature="logsAccess()[pri:0, instance:oa.selenium.FrameworkClean.tests.SmokeTest@1c55a79]" name="logsAccess" is-config="true" duration-ms="92" started-at="2015-09-06T20:07:49Z" finished-at="2015-09-06T20:07:49Z">
+        <test-method status="PASS" signature="logsAccess()[pri:0, instance:oa.selenium.FrameworkClean.tests.SmokeTest@120d014]" name="logsAccess" is-config="true" duration-ms="180" started-at="2015-09-09T14:33:30Z" finished-at="2015-09-09T14:33:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logsAccess -->
-        <test-method status="PASS" signature="SmokeTest2()[pri:0, instance:oa.selenium.FrameworkClean.tests.SmokeTest@1c55a79]" name="SmokeTest2" duration-ms="906" started-at="2015-09-06T20:07:49Z" finished-at="2015-09-06T20:07:50Z">
+        <test-method status="PASS" signature="SmokeTest2()[pri:0, instance:oa.selenium.FrameworkClean.tests.SmokeTest@120d014]" name="SmokeTest2" duration-ms="1023" started-at="2015-09-09T14:33:30Z" finished-at="2015-09-09T14:33:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SmokeTest2 -->
-        <test-method status="PASS" signature="logsAccess()[pri:0, instance:oa.selenium.FrameworkClean.tests.SmokeTest@1c55a79]" name="logsAccess" is-config="true" duration-ms="94" started-at="2015-09-06T20:07:50Z" finished-at="2015-09-06T20:07:50Z">
+        <test-method status="PASS" signature="logsAccess()[pri:0, instance:oa.selenium.FrameworkClean.tests.SmokeTest@120d014]" name="logsAccess" is-config="true" duration-ms="89" started-at="2015-09-09T14:33:31Z" finished-at="2015-09-09T14:33:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logsAccess -->
-        <test-method status="PASS" signature="SmokeTest3()[pri:0, instance:oa.selenium.FrameworkClean.tests.SmokeTest@1c55a79]" name="SmokeTest3" duration-ms="751" started-at="2015-09-06T20:07:50Z" finished-at="2015-09-06T20:07:51Z">
+        <test-method status="PASS" signature="SmokeTest3()[pri:0, instance:oa.selenium.FrameworkClean.tests.SmokeTest@120d014]" name="SmokeTest3" duration-ms="760" started-at="2015-09-09T14:33:31Z" finished-at="2015-09-09T14:33:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SmokeTest3 -->
-        <test-method status="PASS" signature="logsAccess()[pri:0, instance:oa.selenium.FrameworkClean.tests.SmokeTest@1c55a79]" name="logsAccess" is-config="true" duration-ms="69" started-at="2015-09-06T20:07:51Z" finished-at="2015-09-06T20:07:51Z">
+        <test-method status="PASS" signature="logsAccess()[pri:0, instance:oa.selenium.FrameworkClean.tests.SmokeTest@120d014]" name="logsAccess" is-config="true" duration-ms="66" started-at="2015-09-09T14:33:32Z" finished-at="2015-09-09T14:33:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logsAccess -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:oa.selenium.FrameworkClean.tests.SmokeTest@1c55a79]" name="tearDown" is-config="true" duration-ms="722" started-at="2015-09-06T20:07:51Z" finished-at="2015-09-06T20:07:51Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:oa.selenium.FrameworkClean.tests.SmokeTest@120d014]" name="tearDown" is-config="true" duration-ms="691" started-at="2015-09-09T14:33:32Z" finished-at="2015-09-09T14:33:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- oa.selenium.FrameworkClean.tests.SmokeTest -->
       <class name="oa.selenium.FrameworkClean.tests.FanctionalTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:oa.selenium.FrameworkClean.tests.FanctionalTest@b28abf]" name="setUp" is-config="true" duration-ms="2452" started-at="2015-09-06T20:07:51Z" finished-at="2015-09-06T20:07:54Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:oa.selenium.FrameworkClean.tests.FanctionalTest@59448b]" name="setUp" is-config="true" duration-ms="2790" started-at="2015-09-09T14:33:32Z" finished-at="2015-09-09T14:33:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="divisionTest()[pri:0, instance:oa.selenium.FrameworkClean.tests.FanctionalTest@b28abf]" name="divisionTest" duration-ms="1750" started-at="2015-09-06T20:07:54Z" finished-at="2015-09-06T20:07:55Z">
+        <test-method status="PASS" signature="divisionTest()[pri:0, instance:oa.selenium.FrameworkClean.tests.FanctionalTest@59448b]" name="divisionTest" duration-ms="1725" started-at="2015-09-09T14:33:35Z" finished-at="2015-09-09T14:33:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- divisionTest -->
-        <test-method status="PASS" signature="logsAccess()[pri:0, instance:oa.selenium.FrameworkClean.tests.FanctionalTest@b28abf]" name="logsAccess" is-config="true" duration-ms="225" started-at="2015-09-06T20:07:56Z" finished-at="2015-09-06T20:07:56Z">
+        <test-method status="PASS" signature="logsAccess()[pri:0, instance:oa.selenium.FrameworkClean.tests.FanctionalTest@59448b]" name="logsAccess" is-config="true" duration-ms="189" started-at="2015-09-09T14:33:37Z" finished-at="2015-09-09T14:33:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logsAccess -->
-        <test-method status="PASS" signature="minusTest()[pri:0, instance:oa.selenium.FrameworkClean.tests.FanctionalTest@b28abf]" name="minusTest" duration-ms="1557" started-at="2015-09-06T20:07:56Z" finished-at="2015-09-06T20:07:57Z">
+        <test-method status="PASS" signature="minusTest()[pri:0, instance:oa.selenium.FrameworkClean.tests.FanctionalTest@59448b]" name="minusTest" duration-ms="1556" started-at="2015-09-09T14:33:37Z" finished-at="2015-09-09T14:33:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- minusTest -->
-        <test-method status="PASS" signature="logsAccess()[pri:0, instance:oa.selenium.FrameworkClean.tests.FanctionalTest@b28abf]" name="logsAccess" is-config="true" duration-ms="101" started-at="2015-09-06T20:07:57Z" finished-at="2015-09-06T20:07:57Z">
+        <test-method status="PASS" signature="logsAccess()[pri:0, instance:oa.selenium.FrameworkClean.tests.FanctionalTest@59448b]" name="logsAccess" is-config="true" duration-ms="96" started-at="2015-09-09T14:33:39Z" finished-at="2015-09-09T14:33:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logsAccess -->
-        <test-method status="PASS" signature="multTest()[pri:0, instance:oa.selenium.FrameworkClean.tests.FanctionalTest@b28abf]" name="multTest" duration-ms="1577" started-at="2015-09-06T20:07:57Z" finished-at="2015-09-06T20:07:59Z">
+        <test-method status="PASS" signature="multTest()[pri:0, instance:oa.selenium.FrameworkClean.tests.FanctionalTest@59448b]" name="multTest" duration-ms="1616" started-at="2015-09-09T14:33:39Z" finished-at="2015-09-09T14:33:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multTest -->
-        <test-method status="PASS" signature="logsAccess()[pri:0, instance:oa.selenium.FrameworkClean.tests.FanctionalTest@b28abf]" name="logsAccess" is-config="true" duration-ms="96" started-at="2015-09-06T20:07:59Z" finished-at="2015-09-06T20:07:59Z">
+        <test-method status="PASS" signature="logsAccess()[pri:0, instance:oa.selenium.FrameworkClean.tests.FanctionalTest@59448b]" name="logsAccess" is-config="true" duration-ms="121" started-at="2015-09-09T14:33:40Z" finished-at="2015-09-09T14:33:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logsAccess -->
-        <test-method status="PASS" signature="plusTest()[pri:0, instance:oa.selenium.FrameworkClean.tests.FanctionalTest@b28abf]" name="plusTest" duration-ms="1569" started-at="2015-09-06T20:07:59Z" finished-at="2015-09-06T20:08:01Z">
+        <test-method status="PASS" signature="plusTest()[pri:0, instance:oa.selenium.FrameworkClean.tests.FanctionalTest@59448b]" name="plusTest" duration-ms="1635" started-at="2015-09-09T14:33:41Z" finished-at="2015-09-09T14:33:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- plusTest -->
-        <test-method status="PASS" signature="logsAccess()[pri:0, instance:oa.selenium.FrameworkClean.tests.FanctionalTest@b28abf]" name="logsAccess" is-config="true" duration-ms="58" started-at="2015-09-06T20:08:01Z" finished-at="2015-09-06T20:08:01Z">
+        <test-method status="PASS" signature="logsAccess()[pri:0, instance:oa.selenium.FrameworkClean.tests.FanctionalTest@59448b]" name="logsAccess" is-config="true" duration-ms="63" started-at="2015-09-09T14:33:42Z" finished-at="2015-09-09T14:33:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logsAccess -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:oa.selenium.FrameworkClean.tests.FanctionalTest@b28abf]" name="tearDown" is-config="true" duration-ms="663" started-at="2015-09-06T20:08:01Z" finished-at="2015-09-06T20:08:01Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:oa.selenium.FrameworkClean.tests.FanctionalTest@59448b]" name="tearDown" is-config="true" duration-ms="616" started-at="2015-09-09T14:33:42Z" finished-at="2015-09-09T14:33:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

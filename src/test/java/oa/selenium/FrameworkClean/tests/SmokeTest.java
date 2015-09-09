@@ -3,12 +3,12 @@ package oa.selenium.FrameworkClean.tests;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import oa.selenium.FrameworkClean.base.TestBase;
+import oa.selenium.FrameworkClean.base.BaseTestCase;
 import oa.selenium.FrameworkClean.pageobjects.CalcPage;
 
-public class SmokeTest extends TestBase{
+
+public class SmokeTest extends BaseTestCase{
 	CalcPage cp;
-	
 		@BeforeClass
 		public void setUp() {
 			

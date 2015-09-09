@@ -34,9 +34,13 @@ public class CalcPage extends AbstractPage{
 	@FindBy(css = "input[value='minus']")
 	WebElement minus;
 	
-	public CalcPage smokeCalcClick(){
+	/*public CalcPage smokeCalcClick(){
 		inputCalculate.click();
 		return this;
+	}*/
+	public WebElement smokeCalcClick(){
+		inputCalculate.click();
+		return result;
 	}
 	
 	public WebElement returnAction(String actionSelect){ // выбор варианта действия

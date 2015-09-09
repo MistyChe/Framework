@@ -1,0 +1,133 @@
+
+(process:5629): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+1441558317565	addons.manager	DEBUG	Application has been upgraded
+1441558317579	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1441558317582	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1441558317585	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1441558317587	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1441558317588	addons.manager	DEBUG	Starting provider: XPIProvider
+1441558317589	addons.xpi	DEBUG	startup
+1441558317589	addons.xpi	INFO	Mapping fxdriver@googlecode.com to /tmp/anonymous3115904825872622353webdriver-profile/extensions/fxdriver@googlecode.com
+1441558317590	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: /tmp/anonymous3115904825872622353webdriver-profile/extensions/webdriver-staging
+1441558317591	addons.xpi	INFO	Mapping langpack-en-GB@firefox.mozilla.org to /usr/lib/firefox/browser/extensions/langpack-en-GB@firefox.mozilla.org.xpi
+1441558317591	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /usr/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1441558317591	addons.xpi	INFO	Mapping langpack-en-ZA@firefox.mozilla.org to /usr/lib/firefox/browser/extensions/langpack-en-ZA@firefox.mozilla.org.xpi
+1441558317592	addons.xpi	INFO	Mapping webapps-team@lists.launchpad.net to /usr/share/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/webapps-team@lists.launchpad.net
+1441558317593	addons.xpi	INFO	Mapping ubufox@ubuntu.com to /usr/share/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/ubufox@ubuntu.com.xpi
+1441558317593	addons.xpi	INFO	Mapping {2e1445b0-2682-11e1-bfc2-0800200c9a66} to /usr/share/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/{2e1445b0-2682-11e1-bfc2-0800200c9a66}
+1441558317593	addons.xpi	INFO	Mapping online-accounts@lists.launchpad.net to /usr/lib/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/online-accounts@lists.launchpad.net
+1441558317594	addons.xpi	DEBUG	checkForChanges
+1441558317595	addons.xpi	DEBUG	Loaded add-on state from prefs: {}
+1441558317595	addons.xpi	DEBUG	New add-on fxdriver@googlecode.com in app-profile
+1441558317596	addons.xpi	DEBUG	getModTime: Recursive scan of fxdriver@googlecode.com
+1441558317600	addons.xpi	DEBUG	New add-on langpack-en-GB@firefox.mozilla.org in app-global
+1441558317601	addons.xpi	DEBUG	getModTime: Recursive scan of langpack-en-GB@firefox.mozilla.org
+1441558317601	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1441558317601	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1441558317602	addons.xpi	DEBUG	New add-on langpack-en-ZA@firefox.mozilla.org in app-global
+1441558317602	addons.xpi	DEBUG	getModTime: Recursive scan of langpack-en-ZA@firefox.mozilla.org
+1441558317603	addons.xpi	DEBUG	New add-on webapps-team@lists.launchpad.net in app-system-share
+1441558317603	addons.xpi	DEBUG	getModTime: Recursive scan of webapps-team@lists.launchpad.net
+1441558317617	addons.xpi	DEBUG	New add-on ubufox@ubuntu.com in app-system-share
+1441558317617	addons.xpi	DEBUG	getModTime: Recursive scan of ubufox@ubuntu.com
+1441558317617	addons.xpi	DEBUG	New add-on {2e1445b0-2682-11e1-bfc2-0800200c9a66} in app-system-share
+1441558317617	addons.xpi	DEBUG	getModTime: Recursive scan of {2e1445b0-2682-11e1-bfc2-0800200c9a66}
+1441558317618	addons.xpi	DEBUG	New add-on online-accounts@lists.launchpad.net in app-system-local
+1441558317618	addons.xpi	DEBUG	getModTime: Recursive scan of online-accounts@lists.launchpad.net
+1441558317619	addons.xpi	DEBUG	getInstallState changed: true, state: {"app-profile":{"fxdriver@googlecode.com":{"d":"/tmp/anonymous3115904825872622353webdriver-profile/extensions/fxdriver@googlecode.com","st":1441558317000,"mt":1441558317000}},"app-global":{"langpack-en-GB@firefox.mozilla.org":{"d":"/usr/lib/firefox/browser/extensions/langpack-en-GB@firefox.mozilla.org.xpi","st":1440618707000},"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"/usr/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}","st":1440837595000,"mt":1440617925000},"langpack-en-ZA@firefox.mozilla.org":{"d":"/usr/lib/firefox/browser/extensions/langpack-en-ZA@firefox.mozilla.org.xpi","st":1440618707000}},"app-system-share":{"webapps-team@lists.launchpad.net":{"d":"/usr/share/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/webapps-team@lists.launchpad.net","st":1429705123000,"mt":1397665356000},"ubufox@ubuntu.com":{"d":"/usr/share/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/ubufox@ubuntu.com.xpi","st":1439278035000},"{2e1445b0-2682-11e1-bfc2-0800200c9a66}":{"d":"/usr/share/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/{2e1445b0-2682-11e1-bfc2-0800200c9a66}","st":1429705122000,"mt":1404203370000}},"app-system-local":{"online-accounts@lists.launchpad.net":{"d":"/usr/lib/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/online-accounts@lists.launchpad.net","st":1429705123000,"mt":1425919124000}}}
+1441558317628	addons.xpi-utils	DEBUG	Opening XPI database /tmp/anonymous3115904825872622353webdriver-profile/extensions.json
+1441558317629	addons.xpi	DEBUG	New add-on fxdriver@googlecode.com installed in app-profile
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1441558317652	addons.xpi-utils	DEBUG	Make addon app-profile:fxdriver@googlecode.com visible
+1441558317656	DeferredSave.extensions.json	DEBUG	Save changes
+1441558317657	DeferredSave.extensions.json	DEBUG	Save changes
+1441558317658	addons.xpi	DEBUG	Updating XPIState for {"id":"fxdriver@googlecode.com","syncGUID":"0OVIfp-4rjTV","location":"app-profile","version":"2.47.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Firefox WebDriver","description":"WebDriver implementation for Firefox","creator":"Simon Stewart","homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/tmp/anonymous3115904825872622353webdriver-profile/extensions/fxdriver@googlecode.com","installDate":1441558317000,"updateDate":1441558317000,"applyBackgroundUpdates":1,"bootstrap":false,"size":8235030,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":true,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"3.0","maxVersion":"66.*"}],"targetPlatforms":[{"os":"Darwin","abi":null},{"os":"SunOS","abi":null},{"os":"FreeBSD","abi":null},{"os":"OpenBSD","abi":null},{"os":"WINNT","abi":"x86-msvc"},{"os":"Linux","abi":null}],"multiprocessCompatible":false,"signedState":0}
+1441558317660	addons.xpi	DEBUG	getModTime: Recursive scan of fxdriver@googlecode.com
+1441558317667	addons.xpi	DEBUG	New add-on langpack-en-GB@firefox.mozilla.org installed in app-global
+1441558317687	DeferredSave.extensions.json	DEBUG	Starting timer
+1441558317688	addons.xpi-utils	DEBUG	Make addon app-global:langpack-en-GB@firefox.mozilla.org visible
+1441558317688	DeferredSave.extensions.json	DEBUG	Save changes
+1441558317688	DeferredSave.extensions.json	DEBUG	Save changes
+1441558317689	addons.xpi	DEBUG	Updating XPIState for {"id":"langpack-en-GB@firefox.mozilla.org","syncGUID":"T0bsb2Al52hy","location":"app-global","version":"40.0.3","type":"locale","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"English (GB) Language Pack","description":null,"creator":"Mark Tyndall","homepageURL":null,"contributors":["David Bartlett","Constantine Murenin","Ian Neal"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/usr/lib/firefox/browser/extensions/langpack-en-GB@firefox.mozilla.org.xpi","installDate":1440618707000,"updateDate":1440618707000,"applyBackgroundUpdates":1,"bootstrap":true,"size":1105133,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"40.0.3","maxVersion":"40.*"},{"id":"webapprt@mozilla.org","minVersion":"40.0.3","maxVersion":"40.*"}],"targetPlatforms":[]}
+1441558317689	addons.xpi	DEBUG	getModTime: Recursive scan of langpack-en-GB@firefox.mozilla.org
+1441558317696	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+1441558317700	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1441558317700	DeferredSave.extensions.json	DEBUG	Save changes
+1441558317700	DeferredSave.extensions.json	DEBUG	Save changes
+1441558317700	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"yfc4cLDCqIew","location":"app-global","version":"40.0.3","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/usr/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}","installDate":1440837595000,"updateDate":1440837595000,"applyBackgroundUpdates":1,"skinnable":true,"size":5028,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"40.0.3","maxVersion":"40.0.3"}],"targetPlatforms":[]}
+1441558317701	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1441558317701	addons.xpi	DEBUG	New add-on langpack-en-ZA@firefox.mozilla.org installed in app-global
+1441558317714	addons.xpi-utils	DEBUG	Make addon app-global:langpack-en-ZA@firefox.mozilla.org visible
+1441558317714	DeferredSave.extensions.json	DEBUG	Save changes
+1441558317715	DeferredSave.extensions.json	DEBUG	Save changes
+1441558317715	addons.xpi	DEBUG	Updating XPIState for {"id":"langpack-en-ZA@firefox.mozilla.org","syncGUID":"oaGAQm3d063O","location":"app-global","version":"40.0.3","type":"locale","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"English (South Africa) Language Pack","description":null,"creator":"Translate.org.za","homepageURL":null,"contributors":["Translate.org.za","Dwayne Bailey"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/usr/lib/firefox/browser/extensions/langpack-en-ZA@firefox.mozilla.org.xpi","installDate":1440618707000,"updateDate":1440618707000,"applyBackgroundUpdates":1,"bootstrap":true,"size":1140569,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"40.0.3","maxVersion":"40.*"},{"id":"webapprt@mozilla.org","minVersion":"40.0.3","maxVersion":"40.*"}],"targetPlatforms":[]}
+1441558317715	addons.xpi	DEBUG	getModTime: Recursive scan of langpack-en-ZA@firefox.mozilla.org
+1441558317716	addons.xpi	DEBUG	New add-on webapps-team@lists.launchpad.net installed in app-system-share
+1441558317721	DeferredSave.extensions.json	DEBUG	Starting write
+1441558317727	addons.xpi	WARN	Disabling foreign installed add-on webapps-team@lists.launchpad.net in app-system-share
+1441558317728	addons.xpi-utils	DEBUG	Make addon app-system-share:webapps-team@lists.launchpad.net visible
+1441558317728	DeferredSave.extensions.json	DEBUG	Save changes
+1441558317728	DeferredSave.extensions.json	DEBUG	Data changed while write in progress
+1441558317728	DeferredSave.extensions.json	DEBUG	Save changes
+1441558317728	addons.xpi	DEBUG	Updating XPIState for {"id":"webapps-team@lists.launchpad.net","syncGUID":"fKUYELH0Wy94","location":"app-system-share","version":"3.0.2","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Unity Desktop Integration","description":"Provides Unity Integration features to sites in Firefox","creator":"Web Infrastructure Team at Canonical","homepageURL":"http://launchpad.net/webapps"},"visible":true,"active":false,"userDisabled":true,"appDisabled":false,"descriptor":"/usr/share/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/webapps-team@lists.launchpad.net","installDate":1429705123000,"updateDate":1429705123000,"applyBackgroundUpdates":1,"bootstrap":true,"size":0,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"10.0","maxVersion":"21.*"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":0}
+1441558317729	addons.xpi	DEBUG	Loading bootstrap scope from /usr/share/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/webapps-team@lists.launchpad.net
+1441558317735	addons.xpi	WARN	Add-on webapps-team@lists.launchpad.net is missing bootstrap method install
+1441558317735	addons.xpi	DEBUG	New add-on ubufox@ubuntu.com installed in app-system-share
+1441558317757	addons.xpi	WARN	Disabling foreign installed add-on ubufox@ubuntu.com in app-system-share
+1441558317757	addons.xpi-utils	DEBUG	Make addon app-system-share:ubufox@ubuntu.com visible
+1441558317758	DeferredSave.extensions.json	DEBUG	Save changes
+1441558317759	DeferredSave.extensions.json	DEBUG	Save changes
+1441558317759	addons.xpi	DEBUG	Updating XPIState for {"id":"ubufox@ubuntu.com","syncGUID":"_NQL7DRxpjer","location":"app-system-share","version":"3.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"iconURL":"chrome://ubufox/content/ubuntulogo32.png","icon64URL":null,"defaultLocale":{"name":"Ubuntu Modifications","description":"Ubuntu configuration defaults and apt support for firefox extensions/plugins.","creator":"Canonical Ltd.","homepageURL":null,"contributors":["Alexander Sack <asac@ubuntu.com>","Sasa Bodiroza <jazzva@gmail.com>","Daniel Abramov <ex@vingrad.ru>","Arzhel Younsi <xionox@gmail.com>","Saïvann Carignan <oxmosys@gmail.com>","Chris Coulson <chris.coulson@canonical.com>"]},"visible":true,"active":false,"userDisabled":true,"appDisabled":false,"descriptor":"/usr/share/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/ubufox@ubuntu.com.xpi","installDate":1439278035000,"updateDate":1439278035000,"applyBackgroundUpdates":1,"bootstrap":false,"size":124773,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"9.0","maxVersion":"37.0a1"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":1}
+1441558317759	addons.xpi	DEBUG	New add-on {2e1445b0-2682-11e1-bfc2-0800200c9a66} installed in app-system-share
+1441558317769	addons.xpi	WARN	Disabling foreign installed add-on {2e1445b0-2682-11e1-bfc2-0800200c9a66} in app-system-share
+1441558317769	addons.xpi-utils	DEBUG	Make addon app-system-share:{2e1445b0-2682-11e1-bfc2-0800200c9a66} visible
+1441558317769	DeferredSave.extensions.json	DEBUG	Save changes
+1441558317770	DeferredSave.extensions.json	DEBUG	Save changes
+1441558317770	addons.xpi	DEBUG	Updating XPIState for {"id":"{2e1445b0-2682-11e1-bfc2-0800200c9a66}","syncGUID":"yJsqSqXNZP1O","location":"app-system-share","version":"2014.07.01.beta","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Unity Websites integration","description":null,"creator":"Canonical Ltd.","homepageURL":null,"contributors":["Aaron Boodman; http://youngpup.net/","Anthony Lieuallen; http://arantius.com/","Chris Feldmann; http://axlotl.net/","David Schontzler; http://stilleye.com/","Erik Vold; http://erikvold.com/","Gareth Andrew; http://freegarethandrew.org/","Hisateru Tanaka","Jeremy Dunck; http://dunck.us/anabasis/","Jesper Kristensen; <mail@jesperkristensen.dk>","Johan Sundström; http://ecmanaut.blogspot.com/","JP Sugarbroad","Juan Pablo Guereca Alonso","Manpreet Singh","Mark Pilgrim; http://diveintomark.org/","Marti Martz","Matthew Gray; http://mkgray.com:8000/","Matthias Bauer; http://moeffju.net/","Mike Medley; http://sizzlemctwizzle.com/","Nikolas Coukouma; http://atrus.org/","Ori Avtallon","Pak Kei (logo); http://arkidect.com/","Sam Larison; http://samlarison.com/","Sergio Abreu; http://sitedosergio.sitesbr.net/","Tommi Rautava"]},"visible":true,"active":false,"userDisabled":true,"appDisabled":false,"descriptor":"/usr/share/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/{2e1445b0-2682-11e1-bfc2-0800200c9a66}","installDate":1429705122000,"updateDate":1429705122000,"applyBackgroundUpdates":1,"bootstrap":false,"size":0,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"9.0","maxVersion":"17.*"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":0}
+1441558317770	addons.xpi	DEBUG	New add-on online-accounts@lists.launchpad.net installed in app-system-local
+1441558317777	addons.xpi	WARN	Disabling foreign installed add-on online-accounts@lists.launchpad.net in app-system-local
+1441558317777	addons.xpi-utils	DEBUG	Make addon app-system-local:online-accounts@lists.launchpad.net visible
+1441558317777	DeferredSave.extensions.json	DEBUG	Save changes
+1441558317777	DeferredSave.extensions.json	DEBUG	Save changes
+1441558317778	addons.xpi	DEBUG	Updating XPIState for {"id":"online-accounts@lists.launchpad.net","syncGUID":"BtKP-98IDrao","location":"app-system-local","version":"0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Ubuntu Online Accounts","description":"Ubuntu Online Accounts","creator":"Online Accounts team at Canonical","homepageURL":"https://launchpad.net/online-accounts"},"visible":true,"active":false,"userDisabled":true,"appDisabled":false,"descriptor":"/usr/lib/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/online-accounts@lists.launchpad.net","installDate":1429705123000,"updateDate":1429705123000,"applyBackgroundUpdates":1,"bootstrap":false,"size":0,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"9.0","maxVersion":"15.*"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":0}
+1441558317779	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1441558317779	addons.xpi-utils	DEBUG	Updating add-on states
+1441558317780	addons.xpi-utils	DEBUG	Writing add-ons list
+1441558317781	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/extensions/langpack-en-GB@firefox.mozilla.org.xpi
+1441558317783	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/extensions/langpack-en-ZA@firefox.mozilla.org.xpi
+1441558317787	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1441558317787	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1441558317787	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1441558317788	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1441558317788	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1441558317789	addons.manager	DEBUG	Starting provider: GMPProvider
+1441558317796	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1441558317797	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1441558317797	addons.manager	DEBUG	Starting provider: PluginProvider
+1441558317797	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1441558317798	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1441558317798	addons.manager	DEBUG	Completed startup sequence
+1441558318554	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1441558318554	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1441558318555	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1441558319491	DeferredSave.extensions.json	DEBUG	Write succeeded
+1441558319491	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1441558319491	DeferredSave.extensions.json	DEBUG	Starting timer
+1441558319502	addons.repository	DEBUG	No addons.json found.
+1441558319503	DeferredSave.addons.json	DEBUG	Save changes
+1441558319507	DeferredSave.addons.json	DEBUG	Starting timer
+1441558319536	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1441558319536	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1441558319538	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1441558319543	DeferredSave.extensions.json	DEBUG	Starting write
+1441558319559	DeferredSave.addons.json	DEBUG	Starting write
+1441558319884	DeferredSave.extensions.json	DEBUG	Write succeeded
+1441558319892	DeferredSave.addons.json	DEBUG	Write succeeded
+
+(firefox:5629): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:5629): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:5629): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:5629): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed

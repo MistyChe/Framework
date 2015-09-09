@@ -1,0 +1,1821 @@
+[0,427][INFO]: COMMAND InitSession {
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "loggingPrefs": {
+         "driver": "ALL"
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[0,428][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "show_welcome_page": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[0,428][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[0,429][INFO]: Launching chrome: /opt/google/chrome/google-chrome --disable-background-networking --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --disable-hang-monitor --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-logging --ignore-certificate-errors --load-extension=/tmp/.com.google.Chrome.nCC24P/internal --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=12399 --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.com.google.Chrome.DAvWuh data:,
+[1,426][INFO]: RESPONSE InitSession {
+   "acceptSslCerts": true,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "userDataDir": "/tmp/.com.google.Chrome.DAvWuh"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "platform": "Linux",
+   "rotatable": false,
+   "takesHeapSnapshot": true,
+   "takesScreenshot": true,
+   "version": "45.0.2454.85",
+   "webStorageEnabled": true
+}
+[1,432][INFO]: COMMAND SetImplicitWait {
+   "ms": 10000
+}
+[1,432][INFO]: RESPONSE SetImplicitWait
+[1,442][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[1,479][INFO]: Waiting for pending navigations...
+[1,502][INFO]: Done waiting for pending navigations
+[1,664][INFO]: RESPONSE MaximizeWindow
+[1,668][INFO]: COMMAND Navigate {
+   "url": "http://darom.kharkov.ua/calculator.php"
+}
+[1,668][INFO]: Waiting for pending navigations...
+[1,668][INFO]: Done waiting for pending navigations
+[2,611][INFO]: Waiting for pending navigations...
+[2,700][INFO]: Done waiting for pending navigations
+[2,700][INFO]: RESPONSE Navigate
+[2,720][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='a']"
+}
+[2,720][INFO]: Waiting for pending navigations...
+[2,720][INFO]: Done waiting for pending navigations
+[2,758][INFO]: Waiting for pending navigations...
+[2,758][INFO]: Done waiting for pending navigations
+[2,758][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5128780051600188-1"
+}
+[2,762][INFO]: COMMAND ClickElement {
+   "id": "0.5128780051600188-1"
+}
+[2,762][INFO]: Waiting for pending navigations...
+[2,762][INFO]: Done waiting for pending navigations
+[2,825][INFO]: Waiting for pending navigations...
+[2,825][INFO]: Done waiting for pending navigations
+[2,825][INFO]: RESPONSE ClickElement
+[2,829][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='a']"
+}
+[2,829][INFO]: Waiting for pending navigations...
+[2,829][INFO]: Done waiting for pending navigations
+[2,855][INFO]: Waiting for pending navigations...
+[2,855][INFO]: Done waiting for pending navigations
+[2,855][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5128780051600188-1"
+}
+[2,858][INFO]: COMMAND ClearElement {
+   "id": "0.5128780051600188-1"
+}
+[2,858][INFO]: Waiting for pending navigations...
+[2,858][INFO]: Done waiting for pending navigations
+[2,890][INFO]: Waiting for pending navigations...
+[2,890][INFO]: Done waiting for pending navigations
+[2,890][INFO]: RESPONSE ClearElement
+[2,894][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='a']"
+}
+[2,894][INFO]: Waiting for pending navigations...
+[2,894][INFO]: Done waiting for pending navigations
+[2,902][INFO]: Waiting for pending navigations...
+[2,902][INFO]: Done waiting for pending navigations
+[2,902][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5128780051600188-1"
+}
+[2,906][INFO]: COMMAND TypeElement {
+   "id": "0.5128780051600188-1",
+   "value": [ "-189" ]
+}
+[2,906][INFO]: Waiting for pending navigations...
+[2,906][INFO]: Done waiting for pending navigations
+[2,968][INFO]: Waiting for pending navigations...
+[2,968][INFO]: Done waiting for pending navigations
+[2,968][INFO]: RESPONSE TypeElement
+[2,971][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='b']"
+}
+[2,971][INFO]: Waiting for pending navigations...
+[2,971][INFO]: Done waiting for pending navigations
+[3,014][INFO]: Waiting for pending navigations...
+[3,014][INFO]: Done waiting for pending navigations
+[3,014][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5128780051600188-2"
+}
+[3,019][INFO]: COMMAND ClickElement {
+   "id": "0.5128780051600188-2"
+}
+[3,019][INFO]: Waiting for pending navigations...
+[3,019][INFO]: Done waiting for pending navigations
+[3,074][INFO]: Waiting for pending navigations...
+[3,074][INFO]: Done waiting for pending navigations
+[3,074][INFO]: RESPONSE ClickElement
+[3,082][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='b']"
+}
+[3,082][INFO]: Waiting for pending navigations...
+[3,082][INFO]: Done waiting for pending navigations
+[3,107][INFO]: Waiting for pending navigations...
+[3,107][INFO]: Done waiting for pending navigations
+[3,107][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5128780051600188-2"
+}
+[3,112][INFO]: COMMAND ClearElement {
+   "id": "0.5128780051600188-2"
+}
+[3,112][INFO]: Waiting for pending navigations...
+[3,112][INFO]: Done waiting for pending navigations
+[3,144][INFO]: Waiting for pending navigations...
+[3,144][INFO]: Done waiting for pending navigations
+[3,144][INFO]: RESPONSE ClearElement
+[3,149][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='b']"
+}
+[3,149][INFO]: Waiting for pending navigations...
+[3,149][INFO]: Done waiting for pending navigations
+[3,156][INFO]: Waiting for pending navigations...
+[3,156][INFO]: Done waiting for pending navigations
+[3,156][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5128780051600188-2"
+}
+[3,160][INFO]: COMMAND TypeElement {
+   "id": "0.5128780051600188-2",
+   "value": [ "12" ]
+}
+[3,160][INFO]: Waiting for pending navigations...
+[3,160][INFO]: Done waiting for pending navigations
+[3,222][INFO]: Waiting for pending navigations...
+[3,222][INFO]: Done waiting for pending navigations
+[3,222][INFO]: RESPONSE TypeElement
+[3,226][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[value='division']"
+}
+[3,226][INFO]: Waiting for pending navigations...
+[3,226][INFO]: Done waiting for pending navigations
+[3,250][INFO]: Waiting for pending navigations...
+[3,250][INFO]: Done waiting for pending navigations
+[3,250][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5128780051600188-3"
+}
+[3,254][INFO]: COMMAND ClickElement {
+   "id": "0.5128780051600188-3"
+}
+[3,254][INFO]: Waiting for pending navigations...
+[3,254][INFO]: Done waiting for pending navigations
+[3,312][INFO]: Waiting for pending navigations...
+[3,312][INFO]: Done waiting for pending navigations
+[3,313][INFO]: RESPONSE ClickElement
+[3,322][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='sub']"
+}
+[3,322][INFO]: Waiting for pending navigations...
+[3,322][INFO]: Done waiting for pending navigations
+[3,348][INFO]: Waiting for pending navigations...
+[3,348][INFO]: Done waiting for pending navigations
+[3,348][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5128780051600188-4"
+}
+[3,352][INFO]: COMMAND ClickElement {
+   "id": "0.5128780051600188-4"
+}
+[3,352][INFO]: Waiting for pending navigations...
+[3,352][INFO]: Done waiting for pending navigations
+[3,414][INFO]: Waiting for pending navigations...
+[3,414][INFO]: Done waiting for pending navigations
+[3,414][INFO]: RESPONSE ClickElement
+[3,518][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "div[name='result']"
+}
+[3,518][INFO]: Waiting for pending navigations...
+[3,527][INFO]: Done waiting for pending navigations
+[3,563][INFO]: Waiting for pending navigations...
+[3,563][INFO]: Done waiting for pending navigations
+[3,563][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.9283291180618107-1"
+}
+[3,567][INFO]: COMMAND GetElementText {
+   "id": "0.9283291180618107-1"
+}
+[3,567][INFO]: Waiting for pending navigations...
+[3,567][INFO]: Done waiting for pending navigations
+[3,611][INFO]: Waiting for pending navigations...
+[3,611][INFO]: Done waiting for pending navigations
+[3,612][INFO]: RESPONSE GetElementText "Result: -15.75"
+[3,615][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='a']"
+}
+[3,615][INFO]: Waiting for pending navigations...
+[3,615][INFO]: Done waiting for pending navigations
+[3,623][INFO]: Waiting for pending navigations...
+[3,623][INFO]: Done waiting for pending navigations
+[3,623][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.9283291180618107-2"
+}
+[3,626][INFO]: COMMAND ClickElement {
+   "id": "0.9283291180618107-2"
+}
+[3,626][INFO]: Waiting for pending navigations...
+[3,626][INFO]: Done waiting for pending navigations
+[3,685][INFO]: Waiting for pending navigations...
+[3,685][INFO]: Done waiting for pending navigations
+[3,685][INFO]: RESPONSE ClickElement
+[3,690][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='a']"
+}
+[3,690][INFO]: Waiting for pending navigations...
+[3,690][INFO]: Done waiting for pending navigations
+[3,698][INFO]: Waiting for pending navigations...
+[3,698][INFO]: Done waiting for pending navigations
+[3,698][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.9283291180618107-2"
+}
+[3,701][INFO]: COMMAND ClearElement {
+   "id": "0.9283291180618107-2"
+}
+[3,701][INFO]: Waiting for pending navigations...
+[3,702][INFO]: Done waiting for pending navigations
+[3,732][INFO]: Waiting for pending navigations...
+[3,732][INFO]: Done waiting for pending navigations
+[3,732][INFO]: RESPONSE ClearElement
+[3,738][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='a']"
+}
+[3,738][INFO]: Waiting for pending navigations...
+[3,738][INFO]: Done waiting for pending navigations
+[3,746][INFO]: Waiting for pending navigations...
+[3,746][INFO]: Done waiting for pending navigations
+[3,746][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.9283291180618107-2"
+}
+[3,750][INFO]: COMMAND TypeElement {
+   "id": "0.9283291180618107-2",
+   "value": [ "0.26" ]
+}
+[3,750][INFO]: Waiting for pending navigations...
+[3,750][INFO]: Done waiting for pending navigations
+[3,813][INFO]: Waiting for pending navigations...
+[3,813][INFO]: Done waiting for pending navigations
+[3,813][INFO]: RESPONSE TypeElement
+[3,817][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='b']"
+}
+[3,817][INFO]: Waiting for pending navigations...
+[3,817][INFO]: Done waiting for pending navigations
+[3,824][INFO]: Waiting for pending navigations...
+[3,824][INFO]: Done waiting for pending navigations
+[3,824][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.9283291180618107-3"
+}
+[3,829][INFO]: COMMAND ClickElement {
+   "id": "0.9283291180618107-3"
+}
+[3,829][INFO]: Waiting for pending navigations...
+[3,829][INFO]: Done waiting for pending navigations
+[3,890][INFO]: Waiting for pending navigations...
+[3,890][INFO]: Done waiting for pending navigations
+[3,890][INFO]: RESPONSE ClickElement
+[3,896][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='b']"
+}
+[3,896][INFO]: Waiting for pending navigations...
+[3,896][INFO]: Done waiting for pending navigations
+[3,905][INFO]: Waiting for pending navigations...
+[3,905][INFO]: Done waiting for pending navigations
+[3,905][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.9283291180618107-3"
+}
+[3,909][INFO]: COMMAND ClearElement {
+   "id": "0.9283291180618107-3"
+}
+[3,909][INFO]: Waiting for pending navigations...
+[3,909][INFO]: Done waiting for pending navigations
+[3,947][INFO]: Waiting for pending navigations...
+[3,947][INFO]: Done waiting for pending navigations
+[3,947][INFO]: RESPONSE ClearElement
+[3,952][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='b']"
+}
+[3,952][INFO]: Waiting for pending navigations...
+[3,952][INFO]: Done waiting for pending navigations
+[3,959][INFO]: Waiting for pending navigations...
+[3,959][INFO]: Done waiting for pending navigations
+[3,959][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.9283291180618107-3"
+}
+[3,963][INFO]: COMMAND TypeElement {
+   "id": "0.9283291180618107-3",
+   "value": [ "-18" ]
+}
+[3,963][INFO]: Waiting for pending navigations...
+[3,963][INFO]: Done waiting for pending navigations
+[4,021][INFO]: Waiting for pending navigations...
+[4,021][INFO]: Done waiting for pending navigations
+[4,021][INFO]: RESPONSE TypeElement
+[4,025][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[value='division']"
+}
+[4,025][INFO]: Waiting for pending navigations...
+[4,025][INFO]: Done waiting for pending navigations
+[4,047][INFO]: Waiting for pending navigations...
+[4,047][INFO]: Done waiting for pending navigations
+[4,048][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.9283291180618107-4"
+}
+[4,052][INFO]: COMMAND ClickElement {
+   "id": "0.9283291180618107-4"
+}
+[4,052][INFO]: Waiting for pending navigations...
+[4,052][INFO]: Done waiting for pending navigations
+[4,115][INFO]: Waiting for pending navigations...
+[4,115][INFO]: Done waiting for pending navigations
+[4,115][INFO]: RESPONSE ClickElement
+[4,120][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='sub']"
+}
+[4,120][INFO]: Waiting for pending navigations...
+[4,120][INFO]: Done waiting for pending navigations
+[4,145][INFO]: Waiting for pending navigations...
+[4,146][INFO]: Done waiting for pending navigations
+[4,146][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.9283291180618107-5"
+}
+[4,151][INFO]: COMMAND ClickElement {
+   "id": "0.9283291180618107-5"
+}
+[4,151][INFO]: Waiting for pending navigations...
+[4,151][INFO]: Done waiting for pending navigations
+[4,215][INFO]: Waiting for pending navigations...
+[4,215][INFO]: Done waiting for pending navigations
+[4,215][INFO]: RESPONSE ClickElement
+[4,321][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "div[name='result']"
+}
+[4,322][INFO]: Waiting for pending navigations...
+[4,356][INFO]: Done waiting for pending navigations
+[4,396][INFO]: Waiting for pending navigations...
+[4,396][INFO]: Done waiting for pending navigations
+[4,396][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3169717672280967-1"
+}
+[4,401][INFO]: COMMAND GetElementText {
+   "id": "0.3169717672280967-1"
+}
+[4,401][INFO]: Waiting for pending navigations...
+[4,401][INFO]: Done waiting for pending navigations
+[4,431][INFO]: Waiting for pending navigations...
+[4,431][INFO]: Done waiting for pending navigations
+[4,431][INFO]: RESPONSE GetElementText "Result: -0.0144444444444"
+[4,437][INFO]: COMMAND GetLog {
+   "type": "driver"
+}
+[4,437][INFO]: RESPONSE GetLog [ {
+   "level": "INFO",
+   "message": "Populating Preferences file: {\n   \"alternate_error_pages\": {\n      \"enabled\": false\n   },\n   \"autofill\": {\n      \"enabled\": false\n   },\n   \"browser\": {\n      \"check_default_browser\": false\n   },\n  ...",
+   "timestamp": 1441798413474.0
+}, {
+   "level": "INFO",
+   "message": "Populating Local State file: {\n   \"background_mode\": {\n      \"enabled\": false\n   },\n   \"ssl\": {\n      \"rev_checking\": {\n         \"enabled\": false\n      }\n   }\n}\n",
+   "timestamp": 1441798413474.0
+}, {
+   "level": "INFO",
+   "message": "Launching chrome: /opt/google/chrome/google-chrome --disable-background-networking --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --disable-hang-monitor ...",
+   "timestamp": 1441798413476.0
+}, {
+   "level": "DEBUG",
+   "message": "DevTools request: http://127.0.0.1:12399/json/version\n",
+   "timestamp": 1441798413477.0
+}, {
+   "level": "DEBUG",
+   "message": "DevTools request failed\n",
+   "timestamp": 1441798413572.0
+}, {
+   "level": "DEBUG",
+   "message": "DevTools request: http://127.0.0.1:12399/json/version\n",
+   "timestamp": 1441798413625.0
+}, {
+   "level": "DEBUG",
+   "message": "DevTools request failed\n",
+   "timestamp": 1441798413628.0
+}, {
+   "level": "DEBUG",
+   "message": "DevTools request: http://127.0.0.1:12399/json/version\n",
+   "timestamp": 1441798413678.0
+}, {
+   "level": "DEBUG",
+   "message": "DevTools request failed\n",
+   "timestamp": 1441798413679.0
+}, {
+   "level": "DEBUG",
+   "message": "DevTools request: http://127.0.0.1:12399/json/version\n",
+   "timestamp": 1441798413729.0
+}, {
+   "level": "DEBUG",
+   "message": "DevTools request failed\n",
+   "timestamp": 1441798413730.0
+}, {
+   "level": "DEBUG",
+   "message": "DevTools request: http://127.0.0.1:12399/json/version\n",
+   "timestamp": 1441798413780.0
+}, {
+   "level": "DEBUG",
+   "message": "DevTools request failed\n",
+   "timestamp": 1441798413781.0
+}, {
+   "level": "DEBUG",
+   "message": "DevTools request: http://127.0.0.1:12399/json/version\n",
+   "timestamp": 1441798413831.0
+}, {
+   "level": "DEBUG",
+   "message": "DevTools request failed\n",
+   "timestamp": 1441798413832.0
+}, {
+   "level": "DEBUG",
+   "message": "DevTools request: http://127.0.0.1:12399/json/version\n",
+   "timestamp": 1441798413882.0
+}, {
+   "level": "DEBUG",
+   "message": "DevTools request failed\n",
+   "timestamp": 1441798413882.0
+}, {
+   "level": "DEBUG",
+   "message": "DevTools request: http://127.0.0.1:12399/json/version\n",
+   "timestamp": 1441798413933.0
+}, {
+   "level": "DEBUG",
+   "message": "DevTools request failed\n",
+   "timestamp": 1441798413933.0
+}, "..." ]
+[4,636][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='a']"
+}
+[4,636][INFO]: Waiting for pending navigations...
+[4,636][INFO]: Done waiting for pending navigations
+[4,647][INFO]: Waiting for pending navigations...
+[4,647][INFO]: Done waiting for pending navigations
+[4,647][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3169717672280967-2"
+}
+[4,651][INFO]: COMMAND ClickElement {
+   "id": "0.3169717672280967-2"
+}
+[4,651][INFO]: Waiting for pending navigations...
+[4,651][INFO]: Done waiting for pending navigations
+[4,713][INFO]: Waiting for pending navigations...
+[4,713][INFO]: Done waiting for pending navigations
+[4,713][INFO]: RESPONSE ClickElement
+[4,717][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='a']"
+}
+[4,717][INFO]: Waiting for pending navigations...
+[4,717][INFO]: Done waiting for pending navigations
+[4,732][INFO]: Waiting for pending navigations...
+[4,732][INFO]: Done waiting for pending navigations
+[4,732][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3169717672280967-2"
+}
+[4,736][INFO]: COMMAND ClearElement {
+   "id": "0.3169717672280967-2"
+}
+[4,736][INFO]: Waiting for pending navigations...
+[4,736][INFO]: Done waiting for pending navigations
+[4,768][INFO]: Waiting for pending navigations...
+[4,768][INFO]: Done waiting for pending navigations
+[4,768][INFO]: RESPONSE ClearElement
+[4,772][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='a']"
+}
+[4,772][INFO]: Waiting for pending navigations...
+[4,772][INFO]: Done waiting for pending navigations
+[4,780][INFO]: Waiting for pending navigations...
+[4,780][INFO]: Done waiting for pending navigations
+[4,780][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3169717672280967-2"
+}
+[4,785][INFO]: COMMAND TypeElement {
+   "id": "0.3169717672280967-2",
+   "value": [ "-189" ]
+}
+[4,785][INFO]: Waiting for pending navigations...
+[4,785][INFO]: Done waiting for pending navigations
+[4,851][INFO]: Waiting for pending navigations...
+[4,851][INFO]: Done waiting for pending navigations
+[4,851][INFO]: RESPONSE TypeElement
+[4,855][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='b']"
+}
+[4,855][INFO]: Waiting for pending navigations...
+[4,855][INFO]: Done waiting for pending navigations
+[4,864][INFO]: Waiting for pending navigations...
+[4,864][INFO]: Done waiting for pending navigations
+[4,864][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3169717672280967-3"
+}
+[4,869][INFO]: COMMAND ClickElement {
+   "id": "0.3169717672280967-3"
+}
+[4,869][INFO]: Waiting for pending navigations...
+[4,869][INFO]: Done waiting for pending navigations
+[4,926][INFO]: Waiting for pending navigations...
+[4,926][INFO]: Done waiting for pending navigations
+[4,926][INFO]: RESPONSE ClickElement
+[4,931][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='b']"
+}
+[4,931][INFO]: Waiting for pending navigations...
+[4,931][INFO]: Done waiting for pending navigations
+[4,941][INFO]: Waiting for pending navigations...
+[4,941][INFO]: Done waiting for pending navigations
+[4,941][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3169717672280967-3"
+}
+[4,945][INFO]: COMMAND ClearElement {
+   "id": "0.3169717672280967-3"
+}
+[4,945][INFO]: Waiting for pending navigations...
+[4,945][INFO]: Done waiting for pending navigations
+[4,974][INFO]: Waiting for pending navigations...
+[4,974][INFO]: Done waiting for pending navigations
+[4,974][INFO]: RESPONSE ClearElement
+[4,978][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='b']"
+}
+[4,978][INFO]: Waiting for pending navigations...
+[4,978][INFO]: Done waiting for pending navigations
+[4,984][INFO]: Waiting for pending navigations...
+[4,985][INFO]: Done waiting for pending navigations
+[4,985][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3169717672280967-3"
+}
+[4,989][INFO]: COMMAND TypeElement {
+   "id": "0.3169717672280967-3",
+   "value": [ "12" ]
+}
+[4,989][INFO]: Waiting for pending navigations...
+[4,989][INFO]: Done waiting for pending navigations
+[5,052][INFO]: Waiting for pending navigations...
+[5,052][INFO]: Done waiting for pending navigations
+[5,052][INFO]: RESPONSE TypeElement
+[5,058][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[value='minus']"
+}
+[5,059][INFO]: Waiting for pending navigations...
+[5,059][INFO]: Done waiting for pending navigations
+[5,082][INFO]: Waiting for pending navigations...
+[5,082][INFO]: Done waiting for pending navigations
+[5,082][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3169717672280967-4"
+}
+[5,091][INFO]: COMMAND ClickElement {
+   "id": "0.3169717672280967-4"
+}
+[5,091][INFO]: Waiting for pending navigations...
+[5,091][INFO]: Done waiting for pending navigations
+[5,152][INFO]: Waiting for pending navigations...
+[5,153][INFO]: Done waiting for pending navigations
+[5,153][INFO]: RESPONSE ClickElement
+[5,163][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='sub']"
+}
+[5,163][INFO]: Waiting for pending navigations...
+[5,163][INFO]: Done waiting for pending navigations
+[5,171][INFO]: Waiting for pending navigations...
+[5,171][INFO]: Done waiting for pending navigations
+[5,171][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.3169717672280967-5"
+}
+[5,174][INFO]: COMMAND ClickElement {
+   "id": "0.3169717672280967-5"
+}
+[5,174][INFO]: Waiting for pending navigations...
+[5,174][INFO]: Done waiting for pending navigations
+[5,228][INFO]: Waiting for pending navigations...
+[5,228][INFO]: Done waiting for pending navigations
+[5,228][INFO]: RESPONSE ClickElement
+[5,332][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "div[name='result']"
+}
+[5,332][INFO]: Waiting for pending navigations...
+[5,347][INFO]: Done waiting for pending navigations
+[5,366][INFO]: Waiting for pending navigations...
+[5,366][INFO]: Done waiting for pending navigations
+[5,366][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.1715848206076771-1"
+}
+[5,370][INFO]: COMMAND GetElementText {
+   "id": "0.1715848206076771-1"
+}
+[5,370][INFO]: Waiting for pending navigations...
+[5,370][INFO]: Done waiting for pending navigations
+[5,404][INFO]: Waiting for pending navigations...
+[5,404][INFO]: Done waiting for pending navigations
+[5,404][INFO]: RESPONSE GetElementText "Result: -201"
+[5,409][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='a']"
+}
+[5,409][INFO]: Waiting for pending navigations...
+[5,409][INFO]: Done waiting for pending navigations
+[5,418][INFO]: Waiting for pending navigations...
+[5,418][INFO]: Done waiting for pending navigations
+[5,418][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.1715848206076771-2"
+}
+[5,422][INFO]: COMMAND ClickElement {
+   "id": "0.1715848206076771-2"
+}
+[5,423][INFO]: Waiting for pending navigations...
+[5,423][INFO]: Done waiting for pending navigations
+[5,481][INFO]: Waiting for pending navigations...
+[5,481][INFO]: Done waiting for pending navigations
+[5,481][INFO]: RESPONSE ClickElement
+[5,489][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='a']"
+}
+[5,489][INFO]: Waiting for pending navigations...
+[5,489][INFO]: Done waiting for pending navigations
+[5,497][INFO]: Waiting for pending navigations...
+[5,497][INFO]: Done waiting for pending navigations
+[5,497][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.1715848206076771-2"
+}
+[5,501][INFO]: COMMAND ClearElement {
+   "id": "0.1715848206076771-2"
+}
+[5,501][INFO]: Waiting for pending navigations...
+[5,501][INFO]: Done waiting for pending navigations
+[5,535][INFO]: Waiting for pending navigations...
+[5,535][INFO]: Done waiting for pending navigations
+[5,535][INFO]: RESPONSE ClearElement
+[5,539][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='a']"
+}
+[5,539][INFO]: Waiting for pending navigations...
+[5,539][INFO]: Done waiting for pending navigations
+[5,548][INFO]: Waiting for pending navigations...
+[5,548][INFO]: Done waiting for pending navigations
+[5,548][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.1715848206076771-2"
+}
+[5,553][INFO]: COMMAND TypeElement {
+   "id": "0.1715848206076771-2",
+   "value": [ "0.26" ]
+}
+[5,553][INFO]: Waiting for pending navigations...
+[5,553][INFO]: Done waiting for pending navigations
+[5,632][INFO]: Waiting for pending navigations...
+[5,632][INFO]: Done waiting for pending navigations
+[5,632][INFO]: RESPONSE TypeElement
+[5,636][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='b']"
+}
+[5,636][INFO]: Waiting for pending navigations...
+[5,636][INFO]: Done waiting for pending navigations
+[5,645][INFO]: Waiting for pending navigations...
+[5,645][INFO]: Done waiting for pending navigations
+[5,645][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.1715848206076771-3"
+}
+[5,650][INFO]: COMMAND ClickElement {
+   "id": "0.1715848206076771-3"
+}
+[5,650][INFO]: Waiting for pending navigations...
+[5,650][INFO]: Done waiting for pending navigations
+[5,712][INFO]: Waiting for pending navigations...
+[5,712][INFO]: Done waiting for pending navigations
+[5,712][INFO]: RESPONSE ClickElement
+[5,723][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='b']"
+}
+[5,723][INFO]: Waiting for pending navigations...
+[5,723][INFO]: Done waiting for pending navigations
+[5,731][INFO]: Waiting for pending navigations...
+[5,731][INFO]: Done waiting for pending navigations
+[5,731][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.1715848206076771-3"
+}
+[5,735][INFO]: COMMAND ClearElement {
+   "id": "0.1715848206076771-3"
+}
+[5,735][INFO]: Waiting for pending navigations...
+[5,735][INFO]: Done waiting for pending navigations
+[5,763][INFO]: Waiting for pending navigations...
+[5,763][INFO]: Done waiting for pending navigations
+[5,763][INFO]: RESPONSE ClearElement
+[5,768][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='b']"
+}
+[5,768][INFO]: Waiting for pending navigations...
+[5,768][INFO]: Done waiting for pending navigations
+[5,777][INFO]: Waiting for pending navigations...
+[5,777][INFO]: Done waiting for pending navigations
+[5,777][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.1715848206076771-3"
+}
+[5,781][INFO]: COMMAND TypeElement {
+   "id": "0.1715848206076771-3",
+   "value": [ "-18" ]
+}
+[5,781][INFO]: Waiting for pending navigations...
+[5,781][INFO]: Done waiting for pending navigations
+[5,841][INFO]: Waiting for pending navigations...
+[5,841][INFO]: Done waiting for pending navigations
+[5,841][INFO]: RESPONSE TypeElement
+[5,846][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[value='minus']"
+}
+[5,846][INFO]: Waiting for pending navigations...
+[5,846][INFO]: Done waiting for pending navigations
+[5,872][INFO]: Waiting for pending navigations...
+[5,872][INFO]: Done waiting for pending navigations
+[5,872][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.1715848206076771-4"
+}
+[5,876][INFO]: COMMAND ClickElement {
+   "id": "0.1715848206076771-4"
+}
+[5,876][INFO]: Waiting for pending navigations...
+[5,876][INFO]: Done waiting for pending navigations
+[5,936][INFO]: Waiting for pending navigations...
+[5,936][INFO]: Done waiting for pending navigations
+[5,937][INFO]: RESPONSE ClickElement
+[5,947][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='sub']"
+}
+[5,947][INFO]: Waiting for pending navigations...
+[5,947][INFO]: Done waiting for pending navigations
+[5,956][INFO]: Waiting for pending navigations...
+[5,956][INFO]: Done waiting for pending navigations
+[5,956][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.1715848206076771-5"
+}
+[5,960][INFO]: COMMAND ClickElement {
+   "id": "0.1715848206076771-5"
+}
+[5,960][INFO]: Waiting for pending navigations...
+[5,960][INFO]: Done waiting for pending navigations
+[6,022][INFO]: Waiting for pending navigations...
+[6,022][INFO]: Done waiting for pending navigations
+[6,022][INFO]: RESPONSE ClickElement
+[6,126][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "div[name='result']"
+}
+[6,129][INFO]: Waiting for pending navigations...
+[6,129][INFO]: Done waiting for pending navigations
+[6,143][INFO]: Waiting for pending navigations...
+[6,143][INFO]: Done waiting for pending navigations
+[6,143][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6048716655932367-1"
+}
+[6,147][INFO]: COMMAND GetElementText {
+   "id": "0.6048716655932367-1"
+}
+[6,147][INFO]: Waiting for pending navigations...
+[6,147][INFO]: Done waiting for pending navigations
+[6,178][INFO]: Waiting for pending navigations...
+[6,179][INFO]: Done waiting for pending navigations
+[6,179][INFO]: RESPONSE GetElementText "Result: 18.26"
+[6,184][INFO]: COMMAND GetLog {
+   "type": "driver"
+}
+[6,184][INFO]: RESPONSE GetLog [ {
+   "level": "INFO",
+   "message": "RESPONSE GetLog [ {\n   \"level\": \"INFO\",\n   \"message\": \"Populating Preferences file: {\\n   \\\"alternate_error_pages\\\": {\\n      \\\"enabled\\\": false\\n   },\\n   \\\"autofill\\\": {\\n      \\\"enabled\\\": false...",
+   "timestamp": 1441798417483.0
+}, {
+   "level": "INFO",
+   "message": "COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"input[name='a']\"\n}\n",
+   "timestamp": 1441798417682.0
+}, {
+   "level": "INFO",
+   "message": "Waiting for pending navigations...\n",
+   "timestamp": 1441798417682.0
+}, {
+   "level": "INFO",
+   "message": "Done waiting for pending navigations\n",
+   "timestamp": 1441798417682.0
+}, {
+   "level": "DEBUG",
+   "message": "DEVTOOLS COMMAND Runtime.evaluate (id=169) {\n   \"expression\": \"(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\\n// Use of this source code is governed by a BSD-style ...",
+   "timestamp": 1441798417685.0
+}, {
+   "level": "DEBUG",
+   "message": "DEVTOOLS RESPONSE Runtime.evaluate (id=169) {\n   \"result\": {\n      \"type\": \"object\",\n      \"value\": {\n         \"status\": 0,\n         \"value\": {\n            \"ELEMENT\": \"0.3169717672280967-2\"\n       ...",
+   "timestamp": 1441798417693.0
+}, {
+   "level": "INFO",
+   "message": "Waiting for pending navigations...\n",
+   "timestamp": 1441798417693.0
+}, {
+   "level": "INFO",
+   "message": "Done waiting for pending navigations\n",
+   "timestamp": 1441798417693.0
+}, {
+   "level": "INFO",
+   "message": "RESPONSE FindElement {\n   \"ELEMENT\": \"0.3169717672280967-2\"\n}\n",
+   "timestamp": 1441798417693.0
+}, {
+   "level": "INFO",
+   "message": "COMMAND ClickElement {\n   \"id\": \"0.3169717672280967-2\"\n}\n",
+   "timestamp": 1441798417697.0
+}, {
+   "level": "INFO",
+   "message": "Waiting for pending navigations...\n",
+   "timestamp": 1441798417697.0
+}, {
+   "level": "INFO",
+   "message": "Done waiting for pending navigations\n",
+   "timestamp": 1441798417697.0
+}, {
+   "level": "DEBUG",
+   "message": "DEVTOOLS COMMAND Runtime.evaluate (id=170) {\n   \"expression\": \"(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\\n// Use of this source code is governed by a BSD-style ...",
+   "timestamp": 1441798417698.0
+}, {
+   "level": "DEBUG",
+   "message": "DEVTOOLS RESPONSE Runtime.evaluate (id=170) {\n   \"result\": {\n      \"type\": \"object\",\n      \"value\": {\n         \"status\": 0,\n         \"value\": \"input\"\n      }\n   },\n   \"wasThrown\": false\n}\n",
+   "timestamp": 1441798417702.0
+}, {
+   "level": "DEBUG",
+   "message": "DEVTOOLS COMMAND Runtime.evaluate (id=171) {\n   \"expression\": \"(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\\n// Use of this source code is governed by a BSD-style ...",
+   "timestamp": 1441798417702.0
+}, {
+   "level": "DEBUG",
+   "message": "DEVTOOLS RESPONSE Runtime.evaluate (id=171) {\n   \"result\": {\n      \"type\": \"object\",\n      \"value\": {\n         \"status\": 0,\n         \"value\": \"input\"\n      }\n   },\n   \"wasThrown\": false\n}\n",
+   "timestamp": 1441798417706.0
+}, {
+   "level": "DEBUG",
+   "message": "DEVTOOLS COMMAND Runtime.evaluate (id=172) {\n   \"expression\": \"(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\\n// Use of this source code is governed by a BSD-style ...",
+   "timestamp": 1441798417708.0
+}, {
+   "level": "DEBUG",
+   "message": "DEVTOOLS RESPONSE Runtime.evaluate (id=172) {\n   \"result\": {\n      \"type\": \"object\",\n      \"value\": {\n         \"status\": 0,\n         \"value\": true\n      }\n   },\n   \"wasThrown\": false\n}\n",
+   "timestamp": 1441798417733.0
+}, {
+   "level": "DEBUG",
+   "message": "DEVTOOLS COMMAND Runtime.evaluate (id=173) {\n   \"expression\": \"(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\\n// Use of this source code is governed by a BSD-style ...",
+   "timestamp": 1441798417734.0
+}, "..." ]
+[6,282][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='a']"
+}
+[6,283][INFO]: Waiting for pending navigations...
+[6,283][INFO]: Done waiting for pending navigations
+[6,290][INFO]: Waiting for pending navigations...
+[6,290][INFO]: Done waiting for pending navigations
+[6,291][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6048716655932367-2"
+}
+[6,294][INFO]: COMMAND ClickElement {
+   "id": "0.6048716655932367-2"
+}
+[6,294][INFO]: Waiting for pending navigations...
+[6,294][INFO]: Done waiting for pending navigations
+[6,350][INFO]: Waiting for pending navigations...
+[6,351][INFO]: Done waiting for pending navigations
+[6,351][INFO]: RESPONSE ClickElement
+[6,356][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='a']"
+}
+[6,356][INFO]: Waiting for pending navigations...
+[6,356][INFO]: Done waiting for pending navigations
+[6,365][INFO]: Waiting for pending navigations...
+[6,365][INFO]: Done waiting for pending navigations
+[6,365][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6048716655932367-2"
+}
+[6,369][INFO]: COMMAND ClearElement {
+   "id": "0.6048716655932367-2"
+}
+[6,369][INFO]: Waiting for pending navigations...
+[6,369][INFO]: Done waiting for pending navigations
+[6,403][INFO]: Waiting for pending navigations...
+[6,403][INFO]: Done waiting for pending navigations
+[6,403][INFO]: RESPONSE ClearElement
+[6,407][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='a']"
+}
+[6,407][INFO]: Waiting for pending navigations...
+[6,407][INFO]: Done waiting for pending navigations
+[6,415][INFO]: Waiting for pending navigations...
+[6,415][INFO]: Done waiting for pending navigations
+[6,415][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6048716655932367-2"
+}
+[6,421][INFO]: COMMAND TypeElement {
+   "id": "0.6048716655932367-2",
+   "value": [ "-189" ]
+}
+[6,421][INFO]: Waiting for pending navigations...
+[6,421][INFO]: Done waiting for pending navigations
+[6,488][INFO]: Waiting for pending navigations...
+[6,488][INFO]: Done waiting for pending navigations
+[6,488][INFO]: RESPONSE TypeElement
+[6,494][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='b']"
+}
+[6,494][INFO]: Waiting for pending navigations...
+[6,494][INFO]: Done waiting for pending navigations
+[6,503][INFO]: Waiting for pending navigations...
+[6,503][INFO]: Done waiting for pending navigations
+[6,503][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6048716655932367-3"
+}
+[6,507][INFO]: COMMAND ClickElement {
+   "id": "0.6048716655932367-3"
+}
+[6,507][INFO]: Waiting for pending navigations...
+[6,507][INFO]: Done waiting for pending navigations
+[6,584][INFO]: Waiting for pending navigations...
+[6,584][INFO]: Done waiting for pending navigations
+[6,584][INFO]: RESPONSE ClickElement
+[6,588][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='b']"
+}
+[6,588][INFO]: Waiting for pending navigations...
+[6,588][INFO]: Done waiting for pending navigations
+[6,604][INFO]: Waiting for pending navigations...
+[6,604][INFO]: Done waiting for pending navigations
+[6,604][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6048716655932367-3"
+}
+[6,608][INFO]: COMMAND ClearElement {
+   "id": "0.6048716655932367-3"
+}
+[6,608][INFO]: Waiting for pending navigations...
+[6,608][INFO]: Done waiting for pending navigations
+[6,637][INFO]: Waiting for pending navigations...
+[6,637][INFO]: Done waiting for pending navigations
+[6,637][INFO]: RESPONSE ClearElement
+[6,641][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='b']"
+}
+[6,641][INFO]: Waiting for pending navigations...
+[6,641][INFO]: Done waiting for pending navigations
+[6,648][INFO]: Waiting for pending navigations...
+[6,648][INFO]: Done waiting for pending navigations
+[6,648][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6048716655932367-3"
+}
+[6,652][INFO]: COMMAND TypeElement {
+   "id": "0.6048716655932367-3",
+   "value": [ "12" ]
+}
+[6,652][INFO]: Waiting for pending navigations...
+[6,652][INFO]: Done waiting for pending navigations
+[6,714][INFO]: Waiting for pending navigations...
+[6,714][INFO]: Done waiting for pending navigations
+[6,714][INFO]: RESPONSE TypeElement
+[6,718][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[value='mult']"
+}
+[6,718][INFO]: Waiting for pending navigations...
+[6,718][INFO]: Done waiting for pending navigations
+[6,742][INFO]: Waiting for pending navigations...
+[6,742][INFO]: Done waiting for pending navigations
+[6,743][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6048716655932367-4"
+}
+[6,746][INFO]: COMMAND ClickElement {
+   "id": "0.6048716655932367-4"
+}
+[6,746][INFO]: Waiting for pending navigations...
+[6,746][INFO]: Done waiting for pending navigations
+[6,803][INFO]: Waiting for pending navigations...
+[6,804][INFO]: Done waiting for pending navigations
+[6,804][INFO]: RESPONSE ClickElement
+[6,808][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='sub']"
+}
+[6,808][INFO]: Waiting for pending navigations...
+[6,808][INFO]: Done waiting for pending navigations
+[6,817][INFO]: Waiting for pending navigations...
+[6,817][INFO]: Done waiting for pending navigations
+[6,817][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6048716655932367-5"
+}
+[6,821][INFO]: COMMAND ClickElement {
+   "id": "0.6048716655932367-5"
+}
+[6,821][INFO]: Waiting for pending navigations...
+[6,821][INFO]: Done waiting for pending navigations
+[6,881][INFO]: Waiting for pending navigations...
+[6,881][INFO]: Done waiting for pending navigations
+[6,881][INFO]: RESPONSE ClickElement
+[6,985][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "div[name='result']"
+}
+[6,986][INFO]: Waiting for pending navigations...
+[7,019][INFO]: Done waiting for pending navigations
+[7,032][INFO]: Waiting for pending navigations...
+[7,032][INFO]: Done waiting for pending navigations
+[7,032][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.29236897779628634-1"
+}
+[7,035][INFO]: COMMAND GetElementText {
+   "id": "0.29236897779628634-1"
+}
+[7,035][INFO]: Waiting for pending navigations...
+[7,035][INFO]: Done waiting for pending navigations
+[7,068][INFO]: Waiting for pending navigations...
+[7,068][INFO]: Done waiting for pending navigations
+[7,068][INFO]: RESPONSE GetElementText "Result: -2268"
+[7,073][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='a']"
+}
+[7,073][INFO]: Waiting for pending navigations...
+[7,073][INFO]: Done waiting for pending navigations
+[7,084][INFO]: Waiting for pending navigations...
+[7,084][INFO]: Done waiting for pending navigations
+[7,084][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.29236897779628634-2"
+}
+[7,088][INFO]: COMMAND ClickElement {
+   "id": "0.29236897779628634-2"
+}
+[7,088][INFO]: Waiting for pending navigations...
+[7,088][INFO]: Done waiting for pending navigations
+[7,147][INFO]: Waiting for pending navigations...
+[7,147][INFO]: Done waiting for pending navigations
+[7,147][INFO]: RESPONSE ClickElement
+[7,153][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='a']"
+}
+[7,153][INFO]: Waiting for pending navigations...
+[7,153][INFO]: Done waiting for pending navigations
+[7,163][INFO]: Waiting for pending navigations...
+[7,163][INFO]: Done waiting for pending navigations
+[7,163][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.29236897779628634-2"
+}
+[7,167][INFO]: COMMAND ClearElement {
+   "id": "0.29236897779628634-2"
+}
+[7,167][INFO]: Waiting for pending navigations...
+[7,167][INFO]: Done waiting for pending navigations
+[7,197][INFO]: Waiting for pending navigations...
+[7,197][INFO]: Done waiting for pending navigations
+[7,197][INFO]: RESPONSE ClearElement
+[7,200][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='a']"
+}
+[7,200][INFO]: Waiting for pending navigations...
+[7,200][INFO]: Done waiting for pending navigations
+[7,209][INFO]: Waiting for pending navigations...
+[7,209][INFO]: Done waiting for pending navigations
+[7,209][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.29236897779628634-2"
+}
+[7,213][INFO]: COMMAND TypeElement {
+   "id": "0.29236897779628634-2",
+   "value": [ "0.26" ]
+}
+[7,213][INFO]: Waiting for pending navigations...
+[7,213][INFO]: Done waiting for pending navigations
+[7,282][INFO]: Waiting for pending navigations...
+[7,282][INFO]: Done waiting for pending navigations
+[7,282][INFO]: RESPONSE TypeElement
+[7,286][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='b']"
+}
+[7,286][INFO]: Waiting for pending navigations...
+[7,287][INFO]: Done waiting for pending navigations
+[7,296][INFO]: Waiting for pending navigations...
+[7,296][INFO]: Done waiting for pending navigations
+[7,296][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.29236897779628634-3"
+}
+[7,300][INFO]: COMMAND ClickElement {
+   "id": "0.29236897779628634-3"
+}
+[7,300][INFO]: Waiting for pending navigations...
+[7,300][INFO]: Done waiting for pending navigations
+[7,376][INFO]: Waiting for pending navigations...
+[7,376][INFO]: Done waiting for pending navigations
+[7,376][INFO]: RESPONSE ClickElement
+[7,379][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='b']"
+}
+[7,379][INFO]: Waiting for pending navigations...
+[7,379][INFO]: Done waiting for pending navigations
+[7,414][INFO]: Waiting for pending navigations...
+[7,414][INFO]: Done waiting for pending navigations
+[7,414][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.29236897779628634-3"
+}
+[7,420][INFO]: COMMAND ClearElement {
+   "id": "0.29236897779628634-3"
+}
+[7,420][INFO]: Waiting for pending navigations...
+[7,420][INFO]: Done waiting for pending navigations
+[7,450][INFO]: Waiting for pending navigations...
+[7,450][INFO]: Done waiting for pending navigations
+[7,450][INFO]: RESPONSE ClearElement
+[7,455][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='b']"
+}
+[7,455][INFO]: Waiting for pending navigations...
+[7,455][INFO]: Done waiting for pending navigations
+[7,465][INFO]: Waiting for pending navigations...
+[7,465][INFO]: Done waiting for pending navigations
+[7,465][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.29236897779628634-3"
+}
+[7,470][INFO]: COMMAND TypeElement {
+   "id": "0.29236897779628634-3",
+   "value": [ "-18" ]
+}
+[7,470][INFO]: Waiting for pending navigations...
+[7,470][INFO]: Done waiting for pending navigations
+[7,539][INFO]: Waiting for pending navigations...
+[7,539][INFO]: Done waiting for pending navigations
+[7,539][INFO]: RESPONSE TypeElement
+[7,543][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[value='mult']"
+}
+[7,544][INFO]: Waiting for pending navigations...
+[7,544][INFO]: Done waiting for pending navigations
+[7,569][INFO]: Waiting for pending navigations...
+[7,569][INFO]: Done waiting for pending navigations
+[7,569][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.29236897779628634-4"
+}
+[7,586][INFO]: COMMAND ClickElement {
+   "id": "0.29236897779628634-4"
+}
+[7,586][INFO]: Waiting for pending navigations...
+[7,586][INFO]: Done waiting for pending navigations
+[7,646][INFO]: Waiting for pending navigations...
+[7,646][INFO]: Done waiting for pending navigations
+[7,646][INFO]: RESPONSE ClickElement
+[7,652][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='sub']"
+}
+[7,652][INFO]: Waiting for pending navigations...
+[7,652][INFO]: Done waiting for pending navigations
+[7,664][INFO]: Waiting for pending navigations...
+[7,664][INFO]: Done waiting for pending navigations
+[7,664][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.29236897779628634-5"
+}
+[7,674][INFO]: COMMAND ClickElement {
+   "id": "0.29236897779628634-5"
+}
+[7,674][INFO]: Waiting for pending navigations...
+[7,674][INFO]: Done waiting for pending navigations
+[7,732][INFO]: Waiting for pending navigations...
+[7,732][INFO]: Done waiting for pending navigations
+[7,732][INFO]: RESPONSE ClickElement
+[7,837][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "div[name='result']"
+}
+[7,841][INFO]: Waiting for pending navigations...
+[7,841][INFO]: Done waiting for pending navigations
+[7,854][INFO]: Waiting for pending navigations...
+[7,854][INFO]: Done waiting for pending navigations
+[7,854][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7691959310323-1"
+}
+[7,858][INFO]: COMMAND GetElementText {
+   "id": "0.7691959310323-1"
+}
+[7,858][INFO]: Waiting for pending navigations...
+[7,858][INFO]: Done waiting for pending navigations
+[7,892][INFO]: Waiting for pending navigations...
+[7,892][INFO]: Done waiting for pending navigations
+[7,892][INFO]: RESPONSE GetElementText "Result: -4.68"
+[7,898][INFO]: COMMAND GetLog {
+   "type": "driver"
+}
+[7,899][INFO]: RESPONSE GetLog [ {
+   "level": "INFO",
+   "message": "RESPONSE GetLog [ {\n   \"level\": \"INFO\",\n   \"message\": \"RESPONSE GetLog [ {\\n   \\\"level\\\": \\\"INFO\\\",\\n   \\\"message\\\": \\\"Populating Preferences file: {\\\\n   \\\\\\\"alternate_error_pages\\\\\\\": {\\\\n      \\...",
+   "timestamp": 1441798419231.0
+}, {
+   "level": "INFO",
+   "message": "COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"input[name='a']\"\n}\n",
+   "timestamp": 1441798419329.0
+}, {
+   "level": "INFO",
+   "message": "Waiting for pending navigations...\n",
+   "timestamp": 1441798419329.0
+}, {
+   "level": "INFO",
+   "message": "Done waiting for pending navigations\n",
+   "timestamp": 1441798419329.0
+}, {
+   "level": "DEBUG",
+   "message": "DEVTOOLS COMMAND Runtime.evaluate (id=326) {\n   \"expression\": \"(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\\n// Use of this source code is governed by a BSD-style ...",
+   "timestamp": 1441798419330.0
+}, {
+   "level": "DEBUG",
+   "message": "DEVTOOLS RESPONSE Runtime.evaluate (id=326) {\n   \"result\": {\n      \"type\": \"object\",\n      \"value\": {\n         \"status\": 0,\n         \"value\": {\n            \"ELEMENT\": \"0.6048716655932367-2\"\n       ...",
+   "timestamp": 1441798419337.0
+}, {
+   "level": "INFO",
+   "message": "Waiting for pending navigations...\n",
+   "timestamp": 1441798419337.0
+}, {
+   "level": "INFO",
+   "message": "Done waiting for pending navigations\n",
+   "timestamp": 1441798419337.0
+}, {
+   "level": "INFO",
+   "message": "RESPONSE FindElement {\n   \"ELEMENT\": \"0.6048716655932367-2\"\n}\n",
+   "timestamp": 1441798419337.0
+}, {
+   "level": "INFO",
+   "message": "COMMAND ClickElement {\n   \"id\": \"0.6048716655932367-2\"\n}\n",
+   "timestamp": 1441798419340.0
+}, {
+   "level": "INFO",
+   "message": "Waiting for pending navigations...\n",
+   "timestamp": 1441798419340.0
+}, {
+   "level": "INFO",
+   "message": "Done waiting for pending navigations\n",
+   "timestamp": 1441798419340.0
+}, {
+   "level": "DEBUG",
+   "message": "DEVTOOLS COMMAND Runtime.evaluate (id=327) {\n   \"expression\": \"(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\\n// Use of this source code is governed by a BSD-style ...",
+   "timestamp": 1441798419341.0
+}, {
+   "level": "DEBUG",
+   "message": "DEVTOOLS RESPONSE Runtime.evaluate (id=327) {\n   \"result\": {\n      \"type\": \"object\",\n      \"value\": {\n         \"status\": 0,\n         \"value\": \"input\"\n      }\n   },\n   \"wasThrown\": false\n}\n",
+   "timestamp": 1441798419344.0
+}, {
+   "level": "DEBUG",
+   "message": "DEVTOOLS COMMAND Runtime.evaluate (id=328) {\n   \"expression\": \"(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\\n// Use of this source code is governed by a BSD-style ...",
+   "timestamp": 1441798419345.0
+}, {
+   "level": "DEBUG",
+   "message": "DEVTOOLS RESPONSE Runtime.evaluate (id=328) {\n   \"result\": {\n      \"type\": \"object\",\n      \"value\": {\n         \"status\": 0,\n         \"value\": \"input\"\n      }\n   },\n   \"wasThrown\": false\n}\n",
+   "timestamp": 1441798419348.0
+}, {
+   "level": "DEBUG",
+   "message": "DEVTOOLS COMMAND Runtime.evaluate (id=329) {\n   \"expression\": \"(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\\n// Use of this source code is governed by a BSD-style ...",
+   "timestamp": 1441798419349.0
+}, {
+   "level": "DEBUG",
+   "message": "DEVTOOLS RESPONSE Runtime.evaluate (id=329) {\n   \"result\": {\n      \"type\": \"object\",\n      \"value\": {\n         \"status\": 0,\n         \"value\": true\n      }\n   },\n   \"wasThrown\": false\n}\n",
+   "timestamp": 1441798419368.0
+}, {
+   "level": "DEBUG",
+   "message": "DEVTOOLS COMMAND Runtime.evaluate (id=330) {\n   \"expression\": \"(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\\n// Use of this source code is governed by a BSD-style ...",
+   "timestamp": 1441798419369.0
+}, "..." ]
+[8,021][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='a']"
+}
+[8,021][INFO]: Waiting for pending navigations...
+[8,021][INFO]: Done waiting for pending navigations
+[8,033][INFO]: Waiting for pending navigations...
+[8,033][INFO]: Done waiting for pending navigations
+[8,033][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7691959310323-2"
+}
+[8,037][INFO]: COMMAND ClickElement {
+   "id": "0.7691959310323-2"
+}
+[8,037][INFO]: Waiting for pending navigations...
+[8,037][INFO]: Done waiting for pending navigations
+[8,102][INFO]: Waiting for pending navigations...
+[8,102][INFO]: Done waiting for pending navigations
+[8,102][INFO]: RESPONSE ClickElement
+[8,106][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='a']"
+}
+[8,106][INFO]: Waiting for pending navigations...
+[8,106][INFO]: Done waiting for pending navigations
+[8,117][INFO]: Waiting for pending navigations...
+[8,117][INFO]: Done waiting for pending navigations
+[8,117][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7691959310323-2"
+}
+[8,122][INFO]: COMMAND ClearElement {
+   "id": "0.7691959310323-2"
+}
+[8,122][INFO]: Waiting for pending navigations...
+[8,122][INFO]: Done waiting for pending navigations
+[8,151][INFO]: Waiting for pending navigations...
+[8,151][INFO]: Done waiting for pending navigations
+[8,151][INFO]: RESPONSE ClearElement
+[8,154][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='a']"
+}
+[8,154][INFO]: Waiting for pending navigations...
+[8,154][INFO]: Done waiting for pending navigations
+[8,161][INFO]: Waiting for pending navigations...
+[8,161][INFO]: Done waiting for pending navigations
+[8,161][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7691959310323-2"
+}
+[8,165][INFO]: COMMAND TypeElement {
+   "id": "0.7691959310323-2",
+   "value": [ "5" ]
+}
+[8,165][INFO]: Waiting for pending navigations...
+[8,165][INFO]: Done waiting for pending navigations
+[8,234][INFO]: Waiting for pending navigations...
+[8,234][INFO]: Done waiting for pending navigations
+[8,234][INFO]: RESPONSE TypeElement
+[8,239][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='b']"
+}
+[8,239][INFO]: Waiting for pending navigations...
+[8,239][INFO]: Done waiting for pending navigations
+[8,249][INFO]: Waiting for pending navigations...
+[8,249][INFO]: Done waiting for pending navigations
+[8,249][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7691959310323-3"
+}
+[8,253][INFO]: COMMAND ClickElement {
+   "id": "0.7691959310323-3"
+}
+[8,253][INFO]: Waiting for pending navigations...
+[8,253][INFO]: Done waiting for pending navigations
+[8,313][INFO]: Waiting for pending navigations...
+[8,313][INFO]: Done waiting for pending navigations
+[8,313][INFO]: RESPONSE ClickElement
+[8,317][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='b']"
+}
+[8,318][INFO]: Waiting for pending navigations...
+[8,318][INFO]: Done waiting for pending navigations
+[8,330][INFO]: Waiting for pending navigations...
+[8,330][INFO]: Done waiting for pending navigations
+[8,330][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7691959310323-3"
+}
+[8,333][INFO]: COMMAND ClearElement {
+   "id": "0.7691959310323-3"
+}
+[8,333][INFO]: Waiting for pending navigations...
+[8,333][INFO]: Done waiting for pending navigations
+[8,360][INFO]: Waiting for pending navigations...
+[8,360][INFO]: Done waiting for pending navigations
+[8,360][INFO]: RESPONSE ClearElement
+[8,364][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='b']"
+}
+[8,364][INFO]: Waiting for pending navigations...
+[8,364][INFO]: Done waiting for pending navigations
+[8,371][INFO]: Waiting for pending navigations...
+[8,371][INFO]: Done waiting for pending navigations
+[8,371][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7691959310323-3"
+}
+[8,376][INFO]: COMMAND TypeElement {
+   "id": "0.7691959310323-3",
+   "value": [ "-8" ]
+}
+[8,376][INFO]: Waiting for pending navigations...
+[8,376][INFO]: Done waiting for pending navigations
+[8,443][INFO]: Waiting for pending navigations...
+[8,443][INFO]: Done waiting for pending navigations
+[8,443][INFO]: RESPONSE TypeElement
+[8,447][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[value='plus']"
+}
+[8,447][INFO]: Waiting for pending navigations...
+[8,447][INFO]: Done waiting for pending navigations
+[8,473][INFO]: Waiting for pending navigations...
+[8,473][INFO]: Done waiting for pending navigations
+[8,473][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7691959310323-4"
+}
+[8,478][INFO]: COMMAND ClickElement {
+   "id": "0.7691959310323-4"
+}
+[8,478][INFO]: Waiting for pending navigations...
+[8,478][INFO]: Done waiting for pending navigations
+[8,545][INFO]: Waiting for pending navigations...
+[8,545][INFO]: Done waiting for pending navigations
+[8,545][INFO]: RESPONSE ClickElement
+[8,556][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='sub']"
+}
+[8,556][INFO]: Waiting for pending navigations...
+[8,556][INFO]: Done waiting for pending navigations
+[8,564][INFO]: Waiting for pending navigations...
+[8,564][INFO]: Done waiting for pending navigations
+[8,564][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7691959310323-5"
+}
+[8,568][INFO]: COMMAND ClickElement {
+   "id": "0.7691959310323-5"
+}
+[8,568][INFO]: Waiting for pending navigations...
+[8,568][INFO]: Done waiting for pending navigations
+[8,631][INFO]: Waiting for pending navigations...
+[8,631][INFO]: Done waiting for pending navigations
+[8,631][INFO]: RESPONSE ClickElement
+[8,735][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "div[name='result']"
+}
+[8,744][INFO]: Waiting for pending navigations...
+[8,744][INFO]: Done waiting for pending navigations
+[8,760][INFO]: Waiting for pending navigations...
+[8,760][INFO]: Done waiting for pending navigations
+[8,761][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.35146800172515213-1"
+}
+[8,763][INFO]: COMMAND GetElementText {
+   "id": "0.35146800172515213-1"
+}
+[8,763][INFO]: Waiting for pending navigations...
+[8,763][INFO]: Done waiting for pending navigations
+[8,797][INFO]: Waiting for pending navigations...
+[8,797][INFO]: Done waiting for pending navigations
+[8,797][INFO]: RESPONSE GetElementText "Result: -3"
+[8,802][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='a']"
+}
+[8,803][INFO]: Waiting for pending navigations...
+[8,803][INFO]: Done waiting for pending navigations
+[8,814][INFO]: Waiting for pending navigations...
+[8,814][INFO]: Done waiting for pending navigations
+[8,814][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.35146800172515213-2"
+}
+[8,818][INFO]: COMMAND ClickElement {
+   "id": "0.35146800172515213-2"
+}
+[8,818][INFO]: Waiting for pending navigations...
+[8,818][INFO]: Done waiting for pending navigations
+[8,877][INFO]: Waiting for pending navigations...
+[8,877][INFO]: Done waiting for pending navigations
+[8,877][INFO]: RESPONSE ClickElement
+[8,881][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='a']"
+}
+[8,881][INFO]: Waiting for pending navigations...
+[8,881][INFO]: Done waiting for pending navigations
+[8,889][INFO]: Waiting for pending navigations...
+[8,890][INFO]: Done waiting for pending navigations
+[8,890][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.35146800172515213-2"
+}
+[8,893][INFO]: COMMAND ClearElement {
+   "id": "0.35146800172515213-2"
+}
+[8,893][INFO]: Waiting for pending navigations...
+[8,893][INFO]: Done waiting for pending navigations
+[8,921][INFO]: Waiting for pending navigations...
+[8,922][INFO]: Done waiting for pending navigations
+[8,922][INFO]: RESPONSE ClearElement
+[8,925][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='a']"
+}
+[8,925][INFO]: Waiting for pending navigations...
+[8,925][INFO]: Done waiting for pending navigations
+[8,933][INFO]: Waiting for pending navigations...
+[8,933][INFO]: Done waiting for pending navigations
+[8,933][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.35146800172515213-2"
+}
+[8,936][INFO]: COMMAND TypeElement {
+   "id": "0.35146800172515213-2",
+   "value": [ "-189" ]
+}
+[8,937][INFO]: Waiting for pending navigations...
+[8,937][INFO]: Done waiting for pending navigations
+[9,070][INFO]: Waiting for pending navigations...
+[9,070][INFO]: Done waiting for pending navigations
+[9,070][INFO]: RESPONSE TypeElement
+[9,073][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='b']"
+}
+[9,073][INFO]: Waiting for pending navigations...
+[9,073][INFO]: Done waiting for pending navigations
+[9,082][INFO]: Waiting for pending navigations...
+[9,082][INFO]: Done waiting for pending navigations
+[9,082][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.35146800172515213-3"
+}
+[9,088][INFO]: COMMAND ClickElement {
+   "id": "0.35146800172515213-3"
+}
+[9,088][INFO]: Waiting for pending navigations...
+[9,088][INFO]: Done waiting for pending navigations
+[9,147][INFO]: Waiting for pending navigations...
+[9,147][INFO]: Done waiting for pending navigations
+[9,147][INFO]: RESPONSE ClickElement
+[9,158][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='b']"
+}
+[9,159][INFO]: Waiting for pending navigations...
+[9,159][INFO]: Done waiting for pending navigations
+[9,166][INFO]: Waiting for pending navigations...
+[9,166][INFO]: Done waiting for pending navigations
+[9,166][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.35146800172515213-3"
+}
+[9,170][INFO]: COMMAND ClearElement {
+   "id": "0.35146800172515213-3"
+}
+[9,170][INFO]: Waiting for pending navigations...
+[9,170][INFO]: Done waiting for pending navigations
+[9,200][INFO]: Waiting for pending navigations...
+[9,201][INFO]: Done waiting for pending navigations
+[9,201][INFO]: RESPONSE ClearElement
+[9,215][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='b']"
+}
+[9,215][INFO]: Waiting for pending navigations...
+[9,215][INFO]: Done waiting for pending navigations
+[9,222][INFO]: Waiting for pending navigations...
+[9,222][INFO]: Done waiting for pending navigations
+[9,222][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.35146800172515213-3"
+}
+[9,225][INFO]: COMMAND TypeElement {
+   "id": "0.35146800172515213-3",
+   "value": [ "12" ]
+}
+[9,225][INFO]: Waiting for pending navigations...
+[9,225][INFO]: Done waiting for pending navigations
+[9,290][INFO]: Waiting for pending navigations...
+[9,290][INFO]: Done waiting for pending navigations
+[9,290][INFO]: RESPONSE TypeElement
+[9,296][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[value='plus']"
+}
+[9,296][INFO]: Waiting for pending navigations...
+[9,296][INFO]: Done waiting for pending navigations
+[9,323][INFO]: Waiting for pending navigations...
+[9,323][INFO]: Done waiting for pending navigations
+[9,323][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.35146800172515213-4"
+}
+[9,327][INFO]: COMMAND ClickElement {
+   "id": "0.35146800172515213-4"
+}
+[9,327][INFO]: Waiting for pending navigations...
+[9,327][INFO]: Done waiting for pending navigations
+[9,389][INFO]: Waiting for pending navigations...
+[9,389][INFO]: Done waiting for pending navigations
+[9,389][INFO]: RESPONSE ClickElement
+[9,398][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name='sub']"
+}
+[9,399][INFO]: Waiting for pending navigations...
+[9,399][INFO]: Done waiting for pending navigations
+[9,409][INFO]: Waiting for pending navigations...
+[9,409][INFO]: Done waiting for pending navigations
+[9,409][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.35146800172515213-5"
+}
+[9,413][INFO]: COMMAND ClickElement {
+   "id": "0.35146800172515213-5"
+}
+[9,413][INFO]: Waiting for pending navigations...
+[9,413][INFO]: Done waiting for pending navigations
+[9,473][INFO]: Waiting for pending navigations...
+[9,473][INFO]: Done waiting for pending navigations
+[9,473][INFO]: RESPONSE ClickElement
+[9,586][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "div[name='result']"
+}
+[9,586][INFO]: Waiting for pending navigations...
+[9,601][INFO]: Done waiting for pending navigations
+[9,617][INFO]: Waiting for pending navigations...
+[9,617][INFO]: Done waiting for pending navigations
+[9,617][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5217069303616881-1"
+}
+[9,620][INFO]: COMMAND GetElementText {
+   "id": "0.5217069303616881-1"
+}
+[9,620][INFO]: Waiting for pending navigations...
+[9,620][INFO]: Done waiting for pending navigations
+[9,650][INFO]: Waiting for pending navigations...
+[9,650][INFO]: Done waiting for pending navigations
+[9,650][INFO]: RESPONSE GetElementText "Result: -177"
+[9,657][INFO]: COMMAND GetLog {
+   "type": "driver"
+}
+[9,657][INFO]: RESPONSE GetLog [ {
+   "level": "INFO",
+   "message": "RESPONSE GetLog [ {\n   \"level\": \"INFO\",\n   \"message\": \"RESPONSE GetLog [ {\\n   \\\"level\\\": \\\"INFO\\\",\\n   \\\"message\\\": \\\"RESPONSE GetLog [ {\\\\n   \\\\\\\"level\\\\\\\": \\\\\\\"INFO\\\\\\\",\\\\n   \\\\\\\"message\\\\\\\": \\\\...",
+   "timestamp": 1441798420945.0
+}, {
+   "level": "INFO",
+   "message": "COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"input[name='a']\"\n}\n",
+   "timestamp": 1441798421067.0
+}, {
+   "level": "INFO",
+   "message": "Waiting for pending navigations...\n",
+   "timestamp": 1441798421067.0
+}, {
+   "level": "INFO",
+   "message": "Done waiting for pending navigations\n",
+   "timestamp": 1441798421068.0
+}, {
+   "level": "DEBUG",
+   "message": "DEVTOOLS COMMAND Runtime.evaluate (id=483) {\n   \"expression\": \"(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\\n// Use of this source code is governed by a BSD-style ...",
+   "timestamp": 1441798421070.0
+}, {
+   "level": "DEBUG",
+   "message": "DEVTOOLS RESPONSE Runtime.evaluate (id=483) {\n   \"result\": {\n      \"type\": \"object\",\n      \"value\": {\n         \"status\": 0,\n         \"value\": {\n            \"ELEMENT\": \"0.7691959310323-2\"\n         }...",
+   "timestamp": 1441798421079.0
+}, {
+   "level": "INFO",
+   "message": "Waiting for pending navigations...\n",
+   "timestamp": 1441798421079.0
+}, {
+   "level": "INFO",
+   "message": "Done waiting for pending navigations\n",
+   "timestamp": 1441798421079.0
+}, {
+   "level": "INFO",
+   "message": "RESPONSE FindElement {\n   \"ELEMENT\": \"0.7691959310323-2\"\n}\n",
+   "timestamp": 1441798421079.0
+}, {
+   "level": "INFO",
+   "message": "COMMAND ClickElement {\n   \"id\": \"0.7691959310323-2\"\n}\n",
+   "timestamp": 1441798421083.0
+}, {
+   "level": "INFO",
+   "message": "Waiting for pending navigations...\n",
+   "timestamp": 1441798421084.0
+}, {
+   "level": "INFO",
+   "message": "Done waiting for pending navigations\n",
+   "timestamp": 1441798421084.0
+}, {
+   "level": "DEBUG",
+   "message": "DEVTOOLS COMMAND Runtime.evaluate (id=484) {\n   \"expression\": \"(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\\n// Use of this source code is governed by a BSD-style ...",
+   "timestamp": 1441798421084.0
+}, {
+   "level": "DEBUG",
+   "message": "DEVTOOLS RESPONSE Runtime.evaluate (id=484) {\n   \"result\": {\n      \"type\": \"object\",\n      \"value\": {\n         \"status\": 0,\n         \"value\": \"input\"\n      }\n   },\n   \"wasThrown\": false\n}\n",
+   "timestamp": 1441798421088.0
+}, {
+   "level": "DEBUG",
+   "message": "DEVTOOLS COMMAND Runtime.evaluate (id=485) {\n   \"expression\": \"(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\\n// Use of this source code is governed by a BSD-style ...",
+   "timestamp": 1441798421089.0
+}, {
+   "level": "DEBUG",
+   "message": "DEVTOOLS RESPONSE Runtime.evaluate (id=485) {\n   \"result\": {\n      \"type\": \"object\",\n      \"value\": {\n         \"status\": 0,\n         \"value\": \"input\"\n      }\n   },\n   \"wasThrown\": false\n}\n",
+   "timestamp": 1441798421092.0
+}, {
+   "level": "DEBUG",
+   "message": "DEVTOOLS COMMAND Runtime.evaluate (id=486) {\n   \"expression\": \"(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\\n// Use of this source code is governed by a BSD-style ...",
+   "timestamp": 1441798421094.0
+}, {
+   "level": "DEBUG",
+   "message": "DEVTOOLS RESPONSE Runtime.evaluate (id=486) {\n   \"result\": {\n      \"type\": \"object\",\n      \"value\": {\n         \"status\": 0,\n         \"value\": true\n      }\n   },\n   \"wasThrown\": false\n}\n",
+   "timestamp": 1441798421121.0
+}, {
+   "level": "DEBUG",
+   "message": "DEVTOOLS COMMAND Runtime.evaluate (id=487) {\n   \"expression\": \"(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\\n// Use of this source code is governed by a BSD-style ...",
+   "timestamp": 1441798421122.0
+}, "..." ]
+[9,719][INFO]: COMMAND CloseWindow {
+
+}
+[9,824][INFO]: RESPONSE CloseWindow
